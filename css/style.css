@@ -1,0 +1,179 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #5b7c99;
+}
+
+header {
+    background-color: #FF6B35;
+    color: #EEF4ED;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* CSS yang telah ada sebelumnya */
+
+/* Gaya untuk teks "Beranda", "Tentang Kami", dan "Bantuan" dalam header */
+header ul li a {
+    text-decoration: none;
+    color: #EEF4ED;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+header ul li a:hover {
+    color: #ff9900;
+}
+
+header h1 {
+    margin: 0;
+    padding-left: 20px;
+}
+
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header ul li {
+    margin-right: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 25px auto;
+    text-align: center;
+}
+
+.shoe-category {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #5b7c99; /* Warna biru contoh */
+    padding: 20px;
+}
+
+.shoe-category img {
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    border: 1px solid #EEF4ED;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.shoe-category img {
+    max-width: 100%;
+    height: auto;
+}
+
+.shoe-category a:hover {
+    color: #ff9900;
+}
+
+.shoe-category a {
+    text-decoration: none;
+    color: #333;
+}
+
+.box {
+    display: inline-block;
+	background-color: #fff;
+	border:1px solid #ccc;
+	padding:5px;
+	box-sizing: border-box;
+	margin:15px 15px 15px 15px;
+    border: 1px solid #EEF4ED;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+
+footer {
+    padding:25px 0;
+}
+
+.footer {
+    padding: 25px 0;
+    background-color: #FF6B35;
+    color: #EEF4ED;
+    text-align: center;
+}
+
+.footer p {
+	margin-bottom: 10px;
+}
+.footer small {
+	margin-top: 25px;
+	display: inline-block;
+}
+
+.shoe-category {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.shoe-item {
+    width: 300;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.shoe-item:hover {
+    transform: scale(1.05);
+}
+
+.shoe-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.shoe-item h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* Gaya untuk tautan ke halaman detail sepatu */
+.shoe-item a {
+    text-decoration: none;
+    color: #333;
+}
+
+.shoe-item a:hover {
+    color: #ff9900;
+}
+
+.section {
+	padding:25px 0;
+}
+.inline-box {
+    width: 100%;
+    display: flex;
+    background-color: white;
+    justify-content:center;
+}
+
+.gambar{
+    width: 30%;
+}
+.gambar img{
+    width: 100%;
+    height: auto;
+}
+
+.deskripsi {
+    width: 60%;
+}
