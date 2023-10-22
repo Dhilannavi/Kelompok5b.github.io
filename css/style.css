@@ -146,6 +146,29 @@ footer {
     font-size: 18px;
 }
 
+.aboutus {
+    width: 300;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.help {
+    width: 300;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    text-align: left;
+    transition: transform 0.2s;
+
 /* Gaya untuk tautan ke halaman detail sepatu */
 .shoe-item a {
     text-decoration: none;
