@@ -168,6 +168,7 @@ footer {
     background-color: #fff;
     text-align: left;
     transition: transform 0.2s;
+}
 
 /* Gaya untuk tautan ke halaman detail sepatu */
 .shoe-item a {
