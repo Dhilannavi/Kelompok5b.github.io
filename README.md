@@ -144,10 +144,12 @@ Di halaman selanjutnya akan muncul sepatu yang telah pengguna pilih dan pengguna
 
 ![alt text](https://github.com/Dhilannavi/Kelompok5b.github.io/blob/master/asset/img/about%20us.png)
 
-
+pada bagian about us terdapat penjelasan tentang website ini,selain itu juga terdapat alamat,email dan nomer telepone
 
 
 ![alt text](https://github.com/Dhilannavi/Kelompok5b.github.io/blob/master/asset/img/bantuan.png)
+
+pada bagian ini terdapat ini info nomer telepon
 
 <div align="center">
 	
@@ -177,7 +179,7 @@ Halaman ini pengguna dapat melihat review sepatu yang telah di pilih oleh penggu
 
 ![alt text](https://github.com/Dhilannavi/Kelompok5b.github.io/blob/master/asset/img/use%20case%20diagram.png)
 
-Di dalam Use Case ini terdapat dua aktor yaitu pengunjung dan admin. Pengunjung dalam memasuki website lalu melihat review sepatu yang tersedia. Admin dapat memasuki website serta mengedit tampilan dan isi website.
+	Di dalam Use Case ini terdapat dua aktor yaitu pengunjung dan admin. Pengunjung dalam memasuki website lalu melihat review sepatu yang tersedia. Admin dapat memasuki website serta mengedit tampilan dan isi website.
 
 ● flowchart
 
