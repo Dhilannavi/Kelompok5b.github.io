@@ -23,7 +23,7 @@
 
 - [1.1 Tujuan](#11-Tujuan)
 
--[2. Deskripsi keseluruhan](#2-Deskripsi keseluruhan)
+-[2. Deskripsi keseluruhan](#2-Deskripsi-keseluruhan)
 1.	Pendahuluan	
 1.1	Tujuan	
 1.2	Konvensi Dokumen	
