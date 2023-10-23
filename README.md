@@ -24,6 +24,10 @@
 - [1.1 Tujuan](#11-Tujuan)
 
 - [2. Deskripsi keseluruhan](#2-Deskripsi-keseluruhan)
+
+- [3.Antarmuka](#3-Antarmuka)
+
+- 
 1.	Pendahuluan	
 1.1	Tujuan	
 1.2	Konvensi Dokumen	
@@ -119,11 +123,13 @@ Tabel Karakteristik Pengguna :
 
 •	Website ini dapat dibuka dari semua browser.
 
-<div>
- 
-3.	Antarmuka
 
- 
+<div align="center">
+
+## 3.Antarmuka
+	
+</div>
+
 3.1	Antarmuka pengguna
 
 
