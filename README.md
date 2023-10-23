@@ -189,13 +189,9 @@ Program flowchart adalah bagian yang tidak dapat terpisahkan dengan pembuatan se
 Pembahasan:
 
 a.	Pertama pengguna Masuk kedalam web
-
 b.	Kemudian pilih section
-
 c.	Lalu, memilih jenis sepatu
-
 d.	Memilih sepatu
-
 e.	Selesai.
 
 
