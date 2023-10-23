@@ -121,27 +121,36 @@ Tabel Karakteristik Pengguna :
 <div>
  
 3.	Antarmuka
+
+ 
 3.1	Antarmuka pengguna
 
- 
+
 Di halaman awal ini pengguna dapat melihat kategori sepatu (Lifestyle, Basket, Bola, Running), Beranda, Tentang Kami, Bantuan. Pengguna dapat memilih kategori sepatu mana yang ingin di lihat reviewnya.
- 
+
+
 Di halaman ini pengguna dapat memilih sepatu yang telah di sediakan untuk di lihat reviewnya seperti yang terlihat di gambar atas.
- 
+
+
 Di halaman selanjutnya akan muncul sepatu yang telah pengguna pilih dan pengguna dapat melihat merk sepatu, nama sepatu, harga sepatu, dan juga review sepatu tersebut.
-	
 
 
-
- 
 4.	Fitur Sistem
+
 4.1	Deskripsi dan prioritas
+
 ●	Halaman Beranda
+
 Halaman ini adalah halaman utama dari website SneakyKicks. Dalam halaman ini pengguna dapat melihat berbagai kategori dan fitur yang tersedia.
-●	Halaman Kategori
-	Pada halaman ini pengguna dapat memilih sepatu yang tersedia untuk di lihat reviewnya.
-●	Halaman detail sepatu
-	Halaman ini pengguna dapat melihat review sepatu yang telah di pilih oleh pengguna.
+
+●Halaman Kategori
+
+Pada halaman ini pengguna dapat memilih sepatu yang tersedia untuk di lihat reviewnya.
+
+
+●Halaman detail sepatu
+
+Halaman ini pengguna dapat melihat review sepatu yang telah di pilih oleh pengguna.
 
 4.2 Lampiran A: Model Analisis
 
