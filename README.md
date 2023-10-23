@@ -21,7 +21,7 @@
 
 -[pendahuluan](#Pendahuluan)
 
--[1.1 Tujuan](#11-tujuan)
+-[1.1 Tujuan](#11-Tujuan)
 
 1.	Pendahuluan	
 1.1	Tujuan	
