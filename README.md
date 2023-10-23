@@ -142,12 +142,12 @@ Di halaman ini pengguna dapat memilih sepatu yang telah di sediakan untuk di lih
 
 Di halaman selanjutnya akan muncul sepatu yang telah pengguna pilih dan pengguna dapat melihat merk sepatu, nama sepatu, harga sepatu, dan juga review sepatu tersebut.
 
-![alt text](https://github.com/Dhilannavi/Kelompok5b.github.io/blob/master/asset/img/about%20us.png)
+![alt text]
 
 
 
 
-![alt text](https://github.com/Dhilannavi/Kelompok5b.github.io/blob/master/asset/img/bantuan.png)
+![alt text]\
 
 <div align="center">
 	
