@@ -87,11 +87,15 @@ Tabel Karakteristik Pengguna :
 |Pembuat|Mengedit serta menjelajahi website|Dapat melihat serta merubah data maupun tampilan website|
 
 2.4	Asumsi dan Ketergantungan
-●	Website ini harus tersambung dengan koneksi internet dikarenakan berbasis online.
-●	Website ini dapat di akses dimana saja dengan smartphone, laptop, atau komputer.
-●	Aplikasi ini membutuhkan pengalaman menggunakan sepatu tersebut dikarenakan website ini berdasarkan pengalaman dari sang reviewer.
+
+●Website ini harus tersambung dengan koneksi internet dikarenakan berbasis online.
+●Website ini dapat di akses dimana saja dengan smartphone, laptop, atau komputer.
+●Aplikasi ini membutuhkan pengalaman menggunakan sepatu tersebut dikarenakan website ini berdasarkan pengalaman dari sang reviewer.
+
 2.5	Lingkungan operasi
 •	Website ini dapat dibuka dari semua browser.
+
+<div>
  
 3.	Antarmuka
 3.1	Antarmuka pengguna
