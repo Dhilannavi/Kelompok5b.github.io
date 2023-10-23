@@ -27,6 +27,8 @@
 
 - [3. Antarmuka](#3-Antarmuka)
 
+- [4. Fitur Sistem](#4-Fitur-Sistem)
+
 - 
 1.	Pendahuluan	
 1.1	Tujuan	
@@ -141,8 +143,11 @@ Di halaman ini pengguna dapat memilih sepatu yang telah di sediakan untuk di lih
 
 Di halaman selanjutnya akan muncul sepatu yang telah pengguna pilih dan pengguna dapat melihat merk sepatu, nama sepatu, harga sepatu, dan juga review sepatu tersebut.
 
+<div align="center">
+	
+## 4.Fitur Sistem
 
-4.	Fitur Sistem
+</div>
 
 4.1	Deskripsi dan prioritas
 
