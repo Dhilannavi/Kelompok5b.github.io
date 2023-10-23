@@ -194,5 +194,12 @@ e.	Selesai.
 **Penjelasan:**
 
 -Head
+![alt text](https://github.com/Dhilannavi/Kelompok5b.github.io/blob/master/asset/img/head.png)
+
+•<head>: Bagian ini berisi informasi meta dan referensi ke berkas-berkas eksternal yang diperlukan oleh halaman web, seperti file CSS dan ikon favicon.
+•<meta charset="UTF-8">: Mengatur karakter set dokumen sebagai UTF-8, yang merupakan standar internasional yang mendukung banyak karakter dan simbol.
+• <meta name="viewport" content="width=device-width, initial-scale=1.0">: Mengatur viewport untuk responsifitas halaman web pada perangkat berbeda.
+•<link rel="stylesheet" type="text/css" href="css/style.css">: Menghubungkan file CSS eksternal dengan halaman web ini.
+•<title>SneakyKicks</title>: Menentukan judul halaman yang akan ditampilkan pada tab peramban web.
 
 
