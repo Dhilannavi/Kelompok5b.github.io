@@ -27,30 +27,14 @@
 
 - [4. Fitur Sistem](#4-Fitur-Sistem)
 
-- 
-1.	Pendahuluan	
-1.1	Tujuan	
-1.2	Konvensi Dokumen	
-1.3	Audiens yang Dituju dan Saran Bacaan	
-1.4	Lingkup Produk	
-2.	Deskripsi keseluruhan	
-2.1	Perspektif Produk	
-2.2	Fungsi Produk	
-2.3	Kelas dan Karakteristik Pengguna
-2.4	Asumsi dan Ketergantungan
-3.	Antarmuka
-3.1	Antarmuka pengguna
-4.	Fitur Sistem
-4.1	Deskripsi dan prioritas	
-5.	Persyaratan lainnya
-Lampiran B: Model Analisis
+  
 
 <div align="center">
 
  ## 1. Pendahuluan
 
  </div>
-## 1.1 Tujuan
+ 1.1 Tujuan
 
 Tujuan dari SRS ini adalah untuk menjelaskan spesifikasi kebutuhan yang diperlukan dalam pengembangan website review sepatu. Penjabaran spesifikasi website ini meliputi deskripsi umum dari platform tersebut serta deskripsi lengkap mengenai kebutuhan yang harus dipenuhi dalam pembuatan website review sepatu ini. SRS website review sepatu ini disusun dalam rangka tugas dari mata kuliah Pemrograman Web. Dengan adanya spesifikasi kebutuhan ini, diharapkan website review sepatu dapat dikembangkan sesuai dengan standar yang telah ditentukan.
 
