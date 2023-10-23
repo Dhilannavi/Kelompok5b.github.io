@@ -19,9 +19,9 @@
 ## Daftar Isi
 </div>
 
--[pendahuluan](#Pendahuluan)
+- [pendahuluan](#Pendahuluan)
 
--[1.1 Tujuan](#11-Tujuan)
+- [1.1 Tujuan](#11-Tujuan)
 
 1.	Pendahuluan	
 1.1	Tujuan	
@@ -41,7 +41,7 @@
 Lampiran B: Model Analisis
 
  ## Pendahuluan
-## 1.1	Tujuan
+## 1.1 Tujuan
 
 Tujuan dari SRS ini adalah untuk menjelaskan spesifikasi kebutuhan yang diperlukan dalam pengembangan website review sepatu. Penjabaran spesifikasi website ini meliputi deskripsi umum dari platform tersebut serta deskripsi lengkap mengenai kebutuhan yang harus dipenuhi dalam pembuatan website review sepatu ini. SRS website review sepatu ini disusun dalam rangka tugas dari mata kuliah Pemrograman Web. Dengan adanya spesifikasi kebutuhan ini, diharapkan website review sepatu dapat dikembangkan sesuai dengan standar yang telah ditentukan.
 
