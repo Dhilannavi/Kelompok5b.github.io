@@ -147,10 +147,13 @@ Halaman ini adalah halaman utama dari website SneakyKicks. Dalam halaman ini pen
 
 
 ●	Use Case
+
+![alt text]
+
 Di dalam Use Case ini terdapat dua aktor yaitu pengunjung dan admin. Pengunjung dalam memasuki website lalu melihat review sepatu yang tersedia. Admin dapat memasuki website serta mengedit tampilan dan isi website.
 
 ●	Flowchart
-
+![alt text]
 Program flowchart adalah bagian yang tidak dapat terpisahkan dengan pembuatan sebuah website. Flowchart ini menjelaskan Langkah-langkah penggunaan dari  website. 
 Pembahasan:
 
