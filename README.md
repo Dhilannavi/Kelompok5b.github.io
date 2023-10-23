@@ -122,6 +122,7 @@ Tabel Karakteristik Pengguna :
  
 3.	Antarmuka
 3.1	Antarmuka pengguna
+![image](https://github.com/Dhilannavi/Kelompok5b.github.io/assets/124489427/37eff454-ce9f-4ca7-a2f2-a4439a70c307)
  
 Di halaman awal ini pengguna dapat melihat kategori sepatu (Lifestyle, Basket, Bola, Running), Beranda, Tentang Kami, Bantuan. Pengguna dapat memilih kategori sepatu mana yang ingin di lihat reviewnya.
  
