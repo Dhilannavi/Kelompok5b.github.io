@@ -34,11 +34,12 @@
  ## 1. Pendahuluan
 
  </div>
- 1.1 Tujuan
+
+ **1.1 Tujuan**
 
 Tujuan dari SRS ini adalah untuk menjelaskan spesifikasi kebutuhan yang diperlukan dalam pengembangan website review sepatu. Penjabaran spesifikasi website ini meliputi deskripsi umum dari platform tersebut serta deskripsi lengkap mengenai kebutuhan yang harus dipenuhi dalam pembuatan website review sepatu ini. SRS website review sepatu ini disusun dalam rangka tugas dari mata kuliah Pemrograman Web. Dengan adanya spesifikasi kebutuhan ini, diharapkan website review sepatu dapat dikembangkan sesuai dengan standar yang telah ditentukan.
 
-1.2	 Konvensi Dokumen
+**1.2	 Konvensi Dokumen**
 Standar dalam menulis SRS ini seperti: 
 Font
 Font yang digunakan dalam penulisan SRS ini menggunakan Times New Roman dengan ukuran 12 untuk isi.Kemudian untuk Judul menggunakan font arial dengan ukuran 32 dan 14.lalu, bab menggunakan Times New Roman dengan ukuran 14 dan Sub bab menggunakan font Times New Roman dengan ukuran 14
@@ -47,10 +48,10 @@ Pada penulisan SRS ini penyorotan tebal (Bold) digunakan pada saat menulis Bab, 
 Penomoran
 Untuk memudahkan referensi dan perorganisasian dalam penulisan SRS digunakanlah penomoran.Penomoran yang digunakan pada SRS ini menggunakan angka ,seperti 1.1,2.1 dan 3.1
 
-1.3	Audiens yang Dituju dan Saran Bacaan
+**1.3	Audiens yang Dituju dan Saran Bacaan**
 Website review sepatu ini ditujukan untuk semua kalangan yang ingin mendapatkan informasi lebih lanjut tentang berbagai jenis sepatu yang ada di pasaran. Kami mengundang pembaca dari berbagai latar belakang dan usia, termasuk pecinta sepatu, pemburu gaya, atlet, dan siapa pun yang tertarik untuk mengeksplorasi dunia sepatu. Selain itu, kami juga berharap bahwa website ini dapat menjadi sumber inspirasi dan panduan bagi individu yang mencari ulasan dan rekomendasi sepatu. Kami berharap bahwa website ini dapat memberikan wawasan yang lebih dalam tentang berbagai merek, model, dan performa sepatu yang kami tinjau, membantu para pembaca membuat keputusan yang lebih baik dalam memilih sepatu yang sesuai dengan kebutuhan.
 
-1.4	Lingkup Produk
+**1.4	Lingkup Produk**
 Website review sepatu merupakan platform yang fokus pada ulasan berbagai jenis sepatu. Website ini menyajikan informasi terperinci mengenai berbagai merek sepatu, model, dan performa. Selain itu, website ini juga memberikan pandangan mendalam mengenai pengalaman pengguna dengan mencantumkan nama pengulas, penilaian, dan komentar. Hal ini bertujuan untuk membantu pembaca dalam membuat keputusan yang informasional dan cerdas saat memilih sepatu yang sesuai dengan kebutuhan mereka.
 
 <div align="center">
@@ -58,10 +59,10 @@ Website review sepatu merupakan platform yang fokus pada ulasan berbagai jenis s
 ## 2. Deskripsi keseluruhan
 </div>
 
-2.1	Perspektif Produk
+**2.1	Perspektif Produk**
 	Website review sepatu adalah platform yang menyajikan ulasan tentang berbagai sepatu yang ada di pasaran. Situs ini memberikan informasi mendalam mengenai sejumlah merek sepatu populer dan model. Pengguna dapat menemukan performa, dan desain. Website ini juga menyertakan ulasan, mencakup aspek-aspek seperti kenyamanan, daya tahan, dan gaya. Selain itu, informasi tentang tempat pembelian, dan harga juga dapat ditemukan di halaman website ini. Semua ulasan bertujuan untuk memberikan panduan yang akurat kepada pembaca dalam membuat keputusan yang cerdas saat memilih sepatu sesuai dengan kebutuhan mereka.
  
-2.2	Fungsi Produk
+**2.2	Fungsi Produk**
 
 
 ●Informasi Terpercaya: Pengguna dapat mengakses ulasan dan penilaian produk sepatu dari pengguna lain, memberikan informasi yang dapat dipercaya untuk membantu dalam pengambilan keputusan pembelian.
@@ -87,7 +88,7 @@ Website review sepatu merupakan platform yang fokus pada ulasan berbagai jenis s
 
 ●Peningkatan Kualitas Produk: Ulasan dan umpan balik konsumen dapat membantu produsen sepatu untuk memahami kebutuhan pelanggan dan terus meningkatkan kualitas produk mereka.
 
-2.3	Kelas dan Karakteristik Pengguna
+**2.3	Kelas dan Karakteristik Pengguna**
 Tabel Karakteristik Pengguna : 
 
 | Kategori Pengguna             | Tugas          | Hak Akses Ke Aplikasi       |
@@ -95,7 +96,7 @@ Tabel Karakteristik Pengguna :
 |Pengguna|Menjelajahi website|Dapat meriview sepatu yang di inginkan oleh pengguna|
 |Pembuat|Mengedit serta menjelajahi website|Dapat melihat serta merubah data maupun tampilan website|
 
-2.4	Asumsi dan Ketergantungan
+**2.4	Asumsi dan Ketergantungan**
 
 
 ●Website ini harus tersambung dengan koneksi internet dikarenakan berbasis online.
@@ -106,7 +107,7 @@ Tabel Karakteristik Pengguna :
 
 ●Aplikasi ini membutuhkan pengalaman menggunakan sepatu tersebut dikarenakan website ini berdasarkan pengalaman dari sang reviewer.
 
-2.5	Lingkungan operasi
+**2.5	Lingkungan operasi**
 
 
 •	Website ini dapat dibuka dari semua browser.
@@ -118,7 +119,7 @@ Tabel Karakteristik Pengguna :
 	
 </div>
 
-3.1	Antarmuka pengguna
+**3.1	Antarmuka pengguna**
 
 ![alt text](https://github.com/Dhilannavi/Kelompok5b.github.io/blob/master/asset/img/antar%20muka%20pengguna%201.png)
 
@@ -138,7 +139,7 @@ Di halaman selanjutnya akan muncul sepatu yang telah pengguna pilih dan pengguna
 
 </div>
 
-4.1	Deskripsi dan prioritas
+**4.1	Deskripsi dan prioritas**
 
 ●	Halaman Beranda
 
@@ -153,7 +154,7 @@ Pada halaman ini pengguna dapat memilih sepatu yang tersedia untuk di lihat revi
 
 Halaman ini pengguna dapat melihat review sepatu yang telah di pilih oleh pengguna.
 
-4.2 Lampiran A: Model Analisis
+**4.2 Lampiran A: Model Analisis**
 
 
 ●	Use Case
