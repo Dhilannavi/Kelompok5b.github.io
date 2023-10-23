@@ -145,7 +145,7 @@ Di halaman selanjutnya akan muncul sepatu yang telah pengguna pilih dan pengguna
 
 <div align="center">
 	
-## 4.Fitur Sistem
+## 4. Fitur Sistem
 
 </div>
 
