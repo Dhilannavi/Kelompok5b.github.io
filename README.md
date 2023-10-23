@@ -70,12 +70,26 @@ Website review sepatu merupakan platform yang fokus pada ulasan berbagai jenis s
  
 2.2	Fungsi Produk
 ●Informasi Terpercaya: Pengguna dapat mengakses ulasan dan penilaian produk sepatu dari pengguna lain, memberikan informasi yang dapat dipercaya untuk membantu dalam pengambilan keputusan pembelian.
+
+
 ●Pembandingan Produk: Website review sepatu memungkinkan pengguna untuk membandingkan berbagai merek, model, dan jenis sepatu secara mudah, membantu mereka menemukan produk yang paling sesuai dengan kebutuhan mereka.
+
+
 ●Peningkatan Keputusan Pembelian: Dengan informasi yang lebih baik tentang sepatu yang mereka cari, pengguna dapat membuat keputusan pembelian yang lebih baik sesuai dengan preferensi dan kebutuhan mereka.
+
+
 ●Kemudahan Berbelanja Online: Dengan menyediakan informasi yang lengkap tentang sepatu, situs ini mempermudah pengguna untuk berbelanja sepatu secara online tanpa harus pergi ke toko fisik.
+
+
 ●Meningkatkan Kepercayaan: Produk website review sepatu yang andal dan terpercaya dapat membantu meningkatkan kepercayaan konsumen terhadap merek atau toko yang disebutkan dalam ulasan.
+
+
 ●Dukungan Keputusan yang Objektif: Dengan adanya ulasan dari berbagai pengguna, pembeli dapat mendekati keputusan pembelian mereka dengan perspektif yang lebih objektif.
+
+
 ●Mengurangi Resiko Pembelian: Ulasan dan penilaian produk membantu mengurangi risiko pembelian yang kurang berhasil atau kecewa dengan produk sepatu yang dibeli.
+
+
 ●Peningkatan Kualitas Produk: Ulasan dan umpan balik konsumen dapat membantu produsen sepatu untuk memahami kebutuhan pelanggan dan terus meningkatkan kualitas produk mereka.
 
 2.3	Kelas dan Karakteristik Pengguna
