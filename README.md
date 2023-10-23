@@ -122,7 +122,7 @@ Tabel Karakteristik Pengguna :
  
 3.	Antarmuka
 3.1	Antarmuka pengguna
-![image](https://github.com/Dhilannavi/Kelompok5b.github.io/assets/124489427/37eff454-ce9f-4ca7-a2f2-a4439a70c307)
+
  
 Di halaman awal ini pengguna dapat melihat kategori sepatu (Lifestyle, Basket, Bola, Running), Beranda, Tentang Kami, Bantuan. Pengguna dapat memilih kategori sepatu mana yang ingin di lihat reviewnya.
  
@@ -143,7 +143,29 @@ Halaman ini adalah halaman utama dari website SneakyKicks. Dalam halaman ini pen
 ●	Halaman detail sepatu
 	Halaman ini pengguna dapat melihat review sepatu yang telah di pilih oleh pengguna.
 
-4.2	Code Program dan penjelasan
+4.2 Lampiran A: Model Analisis
+
+
+●	Use Case
+Di dalam Use Case ini terdapat dua aktor yaitu pengunjung dan admin. Pengunjung dalam memasuki website lalu melihat review sepatu yang tersedia. Admin dapat memasuki website serta mengedit tampilan dan isi website.
+
+●	Flowchart
+
+Program flowchart adalah bagian yang tidak dapat terpisahkan dengan pembuatan sebuah website. Flowchart ini menjelaskan Langkah-langkah penggunaan dari  website. 
+Pembahasan:
+a.	Pertama pengguna Masuk kedalam web
+
+b.	Kemudian pilih section
+
+c.	Lalu, memilih jenis sepatu
+
+d.	Memilih sepatu
+
+e.	Selesai.
+
+
+
+4.3	Code Program dan penjelasan
 SneakyKicks
 Halaman Utama:
   
@@ -517,24 +539,6 @@ CSS:
 
  
 5.	Persyaratan lainnya
-Lampiran A: Model Analisis
-●	Use Case
-Di dalam Use Case ini terdapat dua aktor yaitu pengunjung dan admin. Pengunjung dalam memasuki website lalu melihat review sepatu yang tersedia. Admin dapat memasuki website serta mengedit tampilan dan isi website.
- 
-
-
-
-
-●	Flowchart
- 
-
-	Program flowchart adalah bagian yang tidak dapat terpisahkan dengan pembuatan sebuah website. Flowchart ini menjelaskan Langkah-langkah penggunaan dari  website. 
-Pembahasan:
-a.	Pertama pengguna Masuk kedalam web
-b.	Kemudian pilih section 
-c.	Lalu, memilih jenis sepatu
-d.	Memilih sepatu
-e.	Selesai.
 
 	
 
