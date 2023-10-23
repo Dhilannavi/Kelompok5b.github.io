@@ -157,13 +157,13 @@ Halaman ini pengguna dapat melihat review sepatu yang telah di pilih oleh penggu
 **4.2 Lampiran A: Model Analisis**
 
 
-●	Use Case
+●Use Case
 
 ![alt text](https://github.com/Dhilannavi/Kelompok5b.github.io/blob/master/asset/img/use%20case%20diagram.png)
 
 Di dalam Use Case ini terdapat dua aktor yaitu pengunjung dan admin. Pengunjung dalam memasuki website lalu melihat review sepatu yang tersedia. Admin dapat memasuki website serta mengedit tampilan dan isi website.
 
-●	Flowchart
+●Flowchart
 ![alt text](https://github.com/Dhilannavi/Kelompok5b.github.io/blob/master/asset/img/flowchart.png)
 Program flowchart adalah bagian yang tidak dapat terpisahkan dengan pembuatan sebuah website. Flowchart ini menjelaskan Langkah-langkah penggunaan dari  website. 
 Pembahasan:
