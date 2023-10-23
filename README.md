@@ -104,11 +104,18 @@ Tabel Karakteristik Pengguna :
 
 2.4	Asumsi dan Ketergantungan
 
+
 ●Website ini harus tersambung dengan koneksi internet dikarenakan berbasis online.
+
+
 ●Website ini dapat di akses dimana saja dengan smartphone, laptop, atau komputer.
+
+
 ●Aplikasi ini membutuhkan pengalaman menggunakan sepatu tersebut dikarenakan website ini berdasarkan pengalaman dari sang reviewer.
 
 2.5	Lingkungan operasi
+
+
 •	Website ini dapat dibuka dari semua browser.
 
 <div>
