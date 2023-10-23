@@ -144,12 +144,12 @@ Di halaman selanjutnya akan muncul sepatu yang telah pengguna pilih dan pengguna
 
 ![alt text](https://github.com/Dhilannavi/Kelompok5b.github.io/blob/master/asset/img/about%20us.png)
 
-pada bagian about us terdapat penjelasan tentang website ini,selain itu juga terdapat alamat,email dan nomer telepone
+pada bagian about us terdapat penjelasan tentang website ini,selain itu juga terdapat alamat,email dan nomer telepon.
 
 
 ![alt text](https://github.com/Dhilannavi/Kelompok5b.github.io/blob/master/asset/img/bantuan.png)
 
-pada bagian ini terdapat ini info nomer telepon dari 
+pada bagian ini terdapat ini info nomer telepon admin website jika memiliki kendala.
 
 <div align="center">
 	
