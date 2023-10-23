@@ -7,12 +7,13 @@ link website https://dhilannavi.github.io/Kelompok5b.github.io/
 Penjelasan coding:
 
 Head :
+/.
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>SneakyKicks</title>
-</head>
+</head> ./
 •       <head>: Bagian ini berisi informasi meta dan referensi ke berkas-berkas eksternal yang diperlukan oleh halaman web, seperti file CSS dan ikon favicon.
 •       <meta charset="UTF-8">: Mengatur karakter set dokumen sebagai UTF-8, yang merupakan standar internasional yang mendukung banyak karakter dan simbol.
 •       <meta name="viewport" content="width=device-width, initial-scale=1.0">: Mengatur viewport untuk responsifitas halaman web pada perangkat berbeda.
