@@ -19,9 +19,7 @@
 ## Daftar Isi
 </div>
 
-- [pendahuluan](#Pendahuluan)
-
-- [1.1 Tujuan](#11-Tujuan)
+- [1. pendahuluan](#1-Pendahuluan)
 
 - [2. Deskripsi keseluruhan](#2-Deskripsi-keseluruhan)
 
