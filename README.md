@@ -69,6 +69,8 @@ Website review sepatu merupakan platform yang fokus pada ulasan berbagai jenis s
 	Website review sepatu adalah platform yang menyajikan ulasan tentang berbagai sepatu yang ada di pasaran. Situs ini memberikan informasi mendalam mengenai sejumlah merek sepatu populer dan model. Pengguna dapat menemukan performa, dan desain. Website ini juga menyertakan ulasan, mencakup aspek-aspek seperti kenyamanan, daya tahan, dan gaya. Selain itu, informasi tentang tempat pembelian, dan harga juga dapat ditemukan di halaman website ini. Semua ulasan bertujuan untuk memberikan panduan yang akurat kepada pembaca dalam membuat keputusan yang cerdas saat memilih sepatu sesuai dengan kebutuhan mereka.
  
 2.2	Fungsi Produk
+
+
 ●Informasi Terpercaya: Pengguna dapat mengakses ulasan dan penilaian produk sepatu dari pengguna lain, memberikan informasi yang dapat dipercaya untuk membantu dalam pengambilan keputusan pembelian.
 
 
