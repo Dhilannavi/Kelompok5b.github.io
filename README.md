@@ -149,7 +149,7 @@ pada bagian about us terdapat penjelasan tentang website ini,selain itu juga ter
 
 ![alt text](https://github.com/Dhilannavi/Kelompok5b.github.io/blob/master/asset/img/bantuan.png)
 
-pada bagian ini terdapat ini info nomer telepon
+pada bagian ini terdapat ini info nomer telepon dari 
 
 <div align="center">
 	
@@ -159,7 +159,7 @@ pada bagian ini terdapat ini info nomer telepon
 
 **4.1	Deskripsi dan prioritas**
 
-●	Halaman Beranda
+●Halaman Beranda
 
 Halaman ini adalah halaman utama dari website SneakyKicks. Dalam halaman ini pengguna dapat melihat berbagai kategori dan fitur yang tersedia.
 
