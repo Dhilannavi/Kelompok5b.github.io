@@ -163,7 +163,7 @@ Halaman ini pengguna dapat melihat review sepatu yang telah di pilih oleh penggu
 
 Di dalam Use Case ini terdapat dua aktor yaitu pengunjung dan admin. Pengunjung dalam memasuki website lalu melihat review sepatu yang tersedia. Admin dapat memasuki website serta mengedit tampilan dan isi website.
 
-●Flowchart
+● flowchart
 ![alt text](https://github.com/Dhilannavi/Kelompok5b.github.io/blob/master/asset/img/flowchart.png)
 Program flowchart adalah bagian yang tidak dapat terpisahkan dengan pembuatan sebuah website. Flowchart ini menjelaskan Langkah-langkah penggunaan dari  website. 
 Pembahasan:
