@@ -23,6 +23,7 @@
 
 - [1.1 Tujuan](#11-Tujuan)
 
+-[2. Deskripsi keseluruhan](#2-Deskripsi keseluruhan)
 1.	Pendahuluan	
 1.1	Tujuan	
 1.2	Konvensi Dokumen	
@@ -62,7 +63,7 @@ Website review sepatu merupakan platform yang fokus pada ulasan berbagai jenis s
 
 <div align="center">
 	
-## 2.	Deskripsi keseluruhan
+## 2.Deskripsi keseluruhan
 </div>
 
 2.1	Perspektif Produk
