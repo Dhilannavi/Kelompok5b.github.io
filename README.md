@@ -1,9 +1,20 @@
-Kelompok5b
-SneakyKicks(Website review sepatu)
 
-[Srs Website SneakyKicks.docx](https://github.com/Dhilannavi/Kelompok5b.github.io/files/13063790/Srs.Website.SneakyKicks.docx)
-link website https://dhilannavi.github.io/Kelompok5b.github.io/
+<div align="center">
+  <h1>	Spesifikasi Kebutuhan Perangkat Lunak</h1>
+  <h1>	SneakyKicks </h1>
+  <h2>	Versi 1.0 disetujui </h2>
+  <h2>	Disiapkan oleh :</h2>
 
+  <p>	Fahreza Azi Prayodha (22091397042) </p>
+  <p>	Mohamad Dhil Annafi (22091397056) </p>
+  <p>	M. Sultonun Naim (22091397065)</p>
+
+<p>	02/10/2023 </p>
+</div>
+
+<div align="justify">
+
+<div align="center">
 Penjelasan coding:
 
 Head :
