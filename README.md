@@ -25,7 +25,7 @@
 
 - [2. Deskripsi keseluruhan](#2-Deskripsi-keseluruhan)
 
-- [3.Antarmuka](#3-Antarmuka)
+- [3. Antarmuka](#3-Antarmuka)
 
 - 
 1.	Pendahuluan	
@@ -126,7 +126,7 @@ Tabel Karakteristik Pengguna :
 
 <div align="center">
 
-## 3.Antarmuka
+## 3. Antarmuka
 	
 </div>
 
