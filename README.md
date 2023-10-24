@@ -149,7 +149,7 @@ pada bagian about us terdapat penjelasan tentang website ini,selain itu juga ter
 
 ![alt text](https://github.com/Dhilannavi/Kelompok5b.github.io/blob/master/asset/img/bantuan%20nw.png)
 
-pada bagian ini terdapat ini info nomer telepon admin website jika memiliki kendala.
+pada bagian ini pengguna jika mengalami kendala dapat melihat bagian bantuan yang berisikan penjelasan dan juga nomer admin apabila dibutuhkan
 
 <div align="center">
 	
