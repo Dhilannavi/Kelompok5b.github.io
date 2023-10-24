@@ -459,27 +459,7 @@ Detail Sepatu:
 
 CSS:
 
-.section {
-    padding:25px 0;
-}
-.inline-box {
-    width: 100%;
-    display: flex;
-    background-color: white;
-    justify-content:center;
-}
- 
-.gambar{
-    width: 30%;
-}
-.gambar img{
-    width: 100%;
-    height: auto;
-}
- 
-.deskripsi {
-    width: 60%;
-}
+![alt text](https://github.com/Dhilannavi/Kelompok5b.github.io/blob/master/asset/img/css%20section.png)
 
 
 1.	.section: Ini adalah aturan gaya untuk elemen dengan kelas "section."
