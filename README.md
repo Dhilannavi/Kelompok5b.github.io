@@ -393,7 +393,9 @@ List Item:
         </div>
     </div>
 &lt;div class="container"&gt; : Ini adalah div (kontainer) yang mengelompokkan konten di dalamnya. Biasanya digunakan untuk mengatur tata letak konten.
+
 ●	&lt;h2&gt;Kategori Lifestyle&lt;/h2&gt; : Menampilkan subjudul "Kategori Lifestyle."
+
 ●	&lt;div class="shoe-category"&gt; : Ini adalah div yang berisi daftar sepatu kategori Tersebut Setiap sepatu diwakili oleh elemen .shoe-item, yang berisi gambar sepatu, judul sepatu, dan tautan ke halaman detail sepatu yang sesuai.
 
 
