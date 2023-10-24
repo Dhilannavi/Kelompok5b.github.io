@@ -600,10 +600,10 @@ CSS:
 
  
 
-JavaScript
+*JavaScript*
 document.addEventListener("DOMContentLoaded", function() {
     const faqItems = [
-        {
+    	{
             id: "faq1",
         },
         {
@@ -650,7 +650,7 @@ document.addEventListener("DOMContentLoaded", function() {
 11.	if (answerElement) { ... }: Ini memeriksa apakah elemen jawaban ditemukan.
 12.	Selanjutnya, kode mengubah tampilan elemen jawaban dengan mengatur properti style.display dari "none" menjadi "block" dan sebaliknya. Ini digunakan untuk menampilkan atau menyembunyikan jawaban FAQ saat tautan ditekan.
 
-HTML
+*HTML*
             <div class="faq-bar">
                 <a href="#" class="faq-link" data-faq="faq1">Bagaimana cara saya menemukan review sepatu yang tepat?</a>
                     <div class= "faqanswer" id="faq1-answer" style="display: none">
@@ -682,7 +682,7 @@ HTML
 •	id="faq1-answer": Ini memberikan elemen ini ID unik "faq1-answer", yang digunakan dalam JavaScript untuk mengidentifikasi elemen jawaban yang sesuai dengan pertanyaan tertentu.
 •	style="display: none": Ini mengatur elemen jawaban untuk awalnya disembunyikan (tidak terlihat) dengan pengaturan CSS display: none. Ini akan diubah menjadi "block" atau "visible" saat pengguna mengklik pertanyaan FAQ terkait.
 
-CSS
+*CSS*
 .faq-bar {
    text-decoration: none;
     color: #333;
