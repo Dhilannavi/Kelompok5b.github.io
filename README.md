@@ -576,14 +576,19 @@ document.addEventListener("DOMContentLoaded", function() {
                     </div>
             </div>
 
-1.	<div class="faq-bar">: Ini adalah elemen <div> dengan kelas CSS "faq-bar". Ini digunakan untuk mengelompokkan setiap pasangan tautan FAQ dan jawabannya.
-2.	<a href="#" class="faq-link" data-faq="faq1">Bagaimana cara saya menemukan review sepatu yang tepat?</a>: Ini adalah tautan (elemen <a>) yang merupakan pertanyaan FAQ. Ini memiliki beberapa atribut:
+1.	&lt;div class="faq-bar"&gt; : Ini adalah elemen <div> dengan kelas CSS "faq-bar". Ini digunakan untuk mengelompokkan setiap pasangan tautan FAQ dan jawabannya.
+2.	&lt;a href="#" class="faq-link" data-faq="faq1"&gt; Bagaimana cara saya menemukan review sepatu yang tepat? &lt;/a&gt; : Ini adalah tautan (elemen &lt;a&gt;) yang merupakan pertanyaan FAQ. Ini memiliki beberapa atribut:
 •	href="#": Ini adalah atribut href yang menentukan tujuan tautan, dalam hal ini, tautan ini akan tidak mengarahkan pengguna ke halaman lain karena nilai "#" digunakan untuk menghindari perubahan URL.
+
 •	class="faq-link": Ini memberikan tautan ini kelas CSS "faq-link", yang mungkin digunakan untuk merancang tampilan tautan secara khusus dengan CSS.
+
 •	data-faq="faq1": Ini adalah atribut data khusus yang digunakan untuk mengidentifikasi pertanyaan FAQ. Nilai atribut ini adalah "faq1" yang sesuai dengan kode JavaScript yang Anda sebutkan sebelumnya.
-3.	<div class="faqanswer" id="faq1-answer" style="display: none">: Ini adalah elemen <div> yang digunakan untuk jawaban FAQ. Ini memiliki beberapa atribut:
+3.	&lt;div class="faqanswer" id="faq1-answer" style="display: none"&gt; : Ini adalah elemen &lt;div&gt; yang digunakan untuk jawaban FAQ. Ini memiliki beberapa atribut:
+
 •	class="faqanswer": Ini memberikan elemen ini kelas CSS "faqanswer", yang juga dapat digunakan untuk merancang tampilan jawaban dengan CSS.
+
 •	id="faq1-answer": Ini memberikan elemen ini ID unik "faq1-answer", yang digunakan dalam JavaScript untuk mengidentifikasi elemen jawaban yang sesuai dengan pertanyaan tertentu.
+
 •	style="display: none": Ini mengatur elemen jawaban untuk awalnya disembunyikan (tidak terlihat) dengan pengaturan CSS display: none. Ini akan diubah menjadi "block" atau "visible" saat pengguna mengklik pertanyaan FAQ terkait.
 
 <div>
