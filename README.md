@@ -597,10 +597,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
 <ol>
 	<li>
-		<b>"<div class="faq-bar">"</b>: Ini adalah elemen <div> dengan kelas CSS "faq-bar". Ini digunakan untuk mengelompokkan setiap pasangan tautan FAQ dan jawabannya.
+		<b>"&ltdiv class="faq-bar"&gt"</b>: Ini adalah elemen <div> dengan kelas CSS "faq-bar". Ini digunakan untuk mengelompokkan setiap pasangan tautan FAQ dan jawabannya.
 	</li>
 	<li>
-		<b><a href="#" class="faq-link" data-faq="faq1">Bagaimana cara saya menemukan review sepatu yang tepat?</a></b>: Ini adalah tautan (elemen <a>) yang merupakan pertanyaan FAQ. Ini memiliki beberapa atribut:
+		<b>&lta href="#" class="faq-link" data-faq="faq1"&gtBagaimana cara saya menemukan review sepatu yang tepat?&lt/a&gt</b>: Ini adalah tautan (elemen <a>) yang merupakan pertanyaan FAQ. Ini memiliki beberapa atribut:
 		<ul>
 			<li>
 				<b>href="#"</b>: Ini adalah atribut href yang menentukan tujuan tautan, dalam hal ini, tautan ini akan tidak mengarahkan pengguna ke halaman lain karena nilai "#" digunakan untuk menghindari perubahan URL.
@@ -614,7 +614,7 @@ document.addEventListener("DOMContentLoaded", function() {
 		</ul>
 	</li>
 	<li>
-		<b><<div class="faqanswer" id="faq1-answer" style="display: none">></b>: Ini adalah elemen <div> yang digunakan untuk jawaban FAQ. Ini memiliki beberapa atribut:
+		<b>&ltdiv class="faqanswer" id="faq1-answer" style="display: none"&gt</b>: Ini adalah elemen <div> yang digunakan untuk jawaban FAQ. Ini memiliki beberapa atribut:
 		<ul>
 			<li>
 				<b>class="faqanswer"</b>: Ini memberikan elemen ini kelas CSS "faqanswer", yang juga dapat digunakan untuk merancang tampilan jawaban dengan CSS.
