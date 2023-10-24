@@ -498,10 +498,11 @@ CSS:
 
 <br>
 
- 
-![alt text](https://github.com/Dhilannavi/Kelompok5b.github.io/blob/master/asset/img/faq.png)
-![alt text](https://github.com/Dhilannavi/Kelompok5b.github.io/blob/master/asset/img/faq2.png)
-  ‏   ‏‏  ‏‏‏  ‏  ‏‏ 
+ <div>
+	 <h3>FAQ bar</h3?
+	![alt text](https://github.com/Dhilannavi/Kelompok5b.github.io/blob/master/asset/img/faq.png)
+	![alt text](https://github.com/Dhilannavi/Kelompok5b.github.io/blob/master/asset/img/faq2.png) 
+ </div>
 <div>
 <h3>JavaScript</h3>
 
