@@ -218,7 +218,7 @@ e.	Selesai.
 ![alt text](https://github.com/Dhilannavi/Kelompok5b.github.io/blob/master/asset/img/header%201.png)
  
 &lt;h1&gt;SneakyKicks&lt;/h1&gt; : Menampilkan judul utama halaman web.
-<ul>: Ini adalah daftar tak-terurut (unordered list) yang berisi tautan ke halaman "Beranda", "Tentang Kami", dan "Bantuan" yang disusun dalam bentuk daftar dengan <li> (list item).
+&lt;ul&gt; : Ini adalah daftar tak-terurut (unordered list) yang berisi tautan ke halaman "Beranda", "Tentang Kami", dan "Bantuan" yang disusun dalam bentuk daftar dengan &lt;li&gt; (list item).
 	
 Dengan css:
 
@@ -253,8 +253,8 @@ Footer:
 
 ![alt text](https://github.com/Dhilannavi/Kelompok5b.github.io/blob/master/asset/img/footer.png)
   
-<div class="footer">: Ini adalah div yang mengelompokkan konten footer atau bagian bawah halaman web.
-●	Di dalam &lt;div class="footer";, ada informasi kontak seperti alamat, email, dan nomor telepon.
+&lt;div class="footer"&gt; : Ini adalah div yang mengelompokkan konten footer atau bagian bawah halaman web.
+●	Di dalam &lt;div class="footer"&gt;, ada informasi kontak seperti alamat, email, dan nomor telepon.
 CSS:
 .footer {
     padding: 25px 0;
@@ -315,9 +315,11 @@ Kategori
         </div>
     </div>
  
-<div class="container">: Ini adalah div (kontainer) yang mengelompokkan konten di dalamnya. Biasanya digunakan untuk mengatur tata letak konten.
-<h2>Kategori</h2>: Menampilkan subjudul "Kategori".
-<div class="shoe-category">: Ini adalah div yang berisi kategori sepatu. Setiap kategori sepatu diwakili oleh elemen .box, yang berisi gambar sepatu, judul kategori, dan tautan ke halaman detail sepatu yang sesuai.
+&lt;div class="container"&gt; : Ini adalah div (kontainer) yang mengelompokkan konten di dalamnya. Biasanya digunakan untuk mengatur tata letak konten.
+&lt;h2&gt;Kategori&lt;/h2&gt; : Menampilkan subjudul "Kategori".
+&lt;div class="shoe-category"&gt; : Ini adalah div yang berisi kategori sepatu. Setiap kategori sepatu diwakili oleh elemen .box, yang berisi gambar sepatu, judul kategori, dan tautan ke halaman detail sepatu yang sesuai.
+
+
 CSS:
 .shoe-category {
     display: flex;
@@ -367,6 +369,7 @@ CSS:
     flex-wrap: wrap;
     justify-content: center;
 }
+
 1.	.container: Ini adalah aturan gaya untuk elemen dengan kelas "container," yang mengendalikan tampilan konten utama di halaman.
 
 ○	max-width: Membatasi lebar elemen "container" menjadi maksimal 1200 piksel.
@@ -441,9 +444,11 @@ List Item:
             <!-- Tambahkan sepatu lainnya dengan tautan ke halaman detail sepatu -->
         </div>
     </div>
-<div class="container">: Ini adalah div (kontainer) yang mengelompokkan konten di dalamnya. Biasanya digunakan untuk mengatur tata letak konten.
-●	<h2>Kategori Lifestyle</h2>: Menampilkan subjudul "Kategori Lifestyle."
-●	<div class="shoe-category">: Ini adalah div yang berisi daftar sepatu kategori Tersebut Setiap sepatu diwakili oleh elemen .shoe-item, yang berisi gambar sepatu, judul sepatu, dan tautan ke halaman detail sepatu yang sesuai.
+&lt;div class="container"&gt; : Ini adalah div (kontainer) yang mengelompokkan konten di dalamnya. Biasanya digunakan untuk mengatur tata letak konten.
+●	&lt;h2&gt;Kategori Lifestyle&lt;/h2&gt; : Menampilkan subjudul "Kategori Lifestyle."
+●	&lt;div class="shoe-category"&gt; : Ini adalah div yang berisi daftar sepatu kategori Tersebut Setiap sepatu diwakili oleh elemen .shoe-item, yang berisi gambar sepatu, judul sepatu, dan tautan ke halaman detail sepatu yang sesuai.
+
+
 CSS:
 .shoe-item {
     width: 300;
@@ -480,6 +485,7 @@ CSS:
 .shoe-item a:hover {
     color: #ff9900;
 }
+
  
 1.	.shoe-item: Ini adalah aturan gaya untuk elemen dengan kelas "shoe-item," yang mengendalikan tampilan detail sepatu.
 
@@ -527,10 +533,12 @@ Detail Sepatu:
  
                 </p>
  
-<div class="box deskripsi">: Ini adalah div yang digunakan untuk menampilkan deskripsi produk.
-●	<h3>New Balance 5740</h3>: Menampilkan judul produk "New Balance 5740."
-●	<h4>Rp. 2.300.000</h4>: Menampilkan harga produk.
-●	<p>Review : ...</p>: Ini adalah paragraf yang berisi ulasan atau deskripsi produk. Anda dapat menambahkan lebih banyak konten teks atau informasi produk di dalam paragraf ini.
+&lt;div class="box deskripsi"&gt; : Ini adalah div yang digunakan untuk menampilkan deskripsi produk.
+●	&lt;h3&gt;New Balance 5740&lt;/h3&gt; : Menampilkan judul produk "New Balance 5740."
+●	&lt;h4&gt;Rp. 2.300.000&lt;/h4&gt; : Menampilkan harga produk.
+●	&lt;p&gt;Review : ...&gt;/p&lt; : Ini adalah paragraf yang berisi ulasan atau deskripsi produk. Anda dapat menambahkan lebih banyak konten teks atau informasi produk di dalam paragraf ini.
+
+
 CSS:
 .section {
     padding:25px 0;
@@ -553,6 +561,8 @@ CSS:
 .deskripsi {
     width: 60%;
 }
+
+
 1.	.section: Ini adalah aturan gaya untuk elemen dengan kelas "section."
 
 ○	padding: Memberikan padding di atas dan bawah sebesar 25 piksel.
