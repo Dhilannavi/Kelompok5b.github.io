@@ -237,7 +237,7 @@ display: Menggunakan flexbox untuk mengatur tata letak header dengan ratakan ant
 ●	header ul li a:hover: Mengubah warna teks tautan menjadi oranye (#ff9900) saat tautan dihover.
  
  
-![alt text]
+![alt text](https://github.com/Dhilannavi/Kelompok5b.github.io/blob/master/asset/img/header.png)
  
 1.	Gaya untuk judul utama di dalam header:
    
