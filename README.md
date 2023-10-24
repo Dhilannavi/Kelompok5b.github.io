@@ -638,32 +638,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 <h3>CSS</h3>
 
-.faq-bar {
-   text-decoration: none;
-    color: #333;
-    padding: 20px 0px 20px 0px;
-    line-height: 20px;
-    display: solid;
-    border: 1px solid #dddddd;
-    width: auto;
-    margin-bottom: -1px;
-  }
-
-  .faq-bar a {
-    text-decoration: none;
-    color: #000000;
-    font-weight: bold;
-    font-size: 16px;
-    transition: color 0.3s;
-}
-
-  .faqanswer {
-    display: none;
-    width: auto;
-    background: #e5e5e5;
-    padding: 20px;  
-    margin-top: 20px;
-  }
+![alt text](https://github.com/Dhilannavi/Kelompok5b.github.io/blob/master/asset/img/css%20js.png)
 
 <ol>
 	<li>
