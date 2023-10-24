@@ -109,10 +109,6 @@ footer {
 .footer p {
 	margin-bottom: 10px;
 }
-.footer small {
-	margin-top: 25px;
-	display: inline-block;
-}
 
 .shoe-category {
     display: flex;
