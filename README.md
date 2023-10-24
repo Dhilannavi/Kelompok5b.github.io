@@ -278,7 +278,8 @@ header ul li {
 1.	Gaya untuk judul utama di dalam header:
    
 ○	header h1: Menghapus margin atas dan kiri (margin: 0, padding-left: 20px).
-3.	Gaya untuk daftar dalam header:
+
+2.	Gaya untuk daftar dalam header:
 
 ○	header ul: Menghilangkan daftar tak-terurut (list-style: none), mengatur margin dan padding menjadi nol.
 
@@ -316,6 +317,8 @@ CSS:
 ○	color: #EEF4ED;: Mengatur warna teks dalam elemen "footer" menjadi putih (#EEF4ED).
 
 ○	text-align: center;: Mengatur teks di dalam elemen "footer" menjadi rata tengah secara horizontal.
+
+
 2.	.footer p:
 
 ○	margin-bottom: 10px;: Mengatur margin bawah (ruang tambahan di bawah) dari paragraf dalam elemen "footer" sebesar 10 piksel. Ini membantu memberikan ruang antara paragraf-paragraf di dalam elemen "footer" agar tidak terlalu rapat satu sama lain.
@@ -419,6 +422,8 @@ CSS:
 ○	background-color: Memberikan warna latar belakang kategori sepatu, dalam hal ini adalah biru (#5b7c99).
 
 ○	padding: Memberikan ruang sekitar isi kategori sepatu sebesar 20 piksel.
+
+
 3.	.shoe-category img: Ini adalah aturan gaya untuk gambar di dalam kategori sepatu.
 
 ○	width dan height: Mengatur lebar dan tinggi gambar menjadi 300 piksel x 200 piksel.
@@ -430,11 +435,15 @@ CSS:
 ○	border-radius: Mengubah sudut gambar menjadi melengkung (border-radius: 5px).
 
 ○	box-shadow: Menambahkan bayangan pada gambar dengan efek bayangan lembut.
+
+
 4.	.shoe-category a: Gaya untuk tautan ke halaman detail sepatu dalam kategori sepatu.
 
 ○	text-decoration: Menghapus garis bawah dari tautan.
 
 ○	color: Memberikan warna teks tautan menjadi abu-abu tua (#333).
+
+
 5.	.box: Ini adalah aturan gaya untuk elemen dengan kelas "box" di dalam kategori sepatu.
 
 ○	display: Mengatur elemen untuk ditampilkan sebagai inline-block.
@@ -586,6 +595,8 @@ CSS:
 1.	.section: Ini adalah aturan gaya untuk elemen dengan kelas "section."
 
 ○	padding: Memberikan padding di atas dan bawah sebesar 25 piksel.
+
+
 2.	.inline-box: Gaya untuk elemen dengan kelas "inline-box."
 
 ○	width: Mengatur lebar elemen menjadi 100%.
@@ -595,14 +606,20 @@ CSS:
 ○	background-color: Memberikan warna latar belakang elemen menjadi putih.
 
 ○	justify-content: Mengatur perataan konten ke tengah (center) secara horizontal.
+
+
 3.	.gambar: Ini adalah aturan gaya untuk elemen dengan kelas "gambar."
 
 ○	width: Mengatur lebar elemen menjadi 30%.
+
+
 4.	.gambar img: Ini adalah aturan gaya untuk gambar di dalam elemen dengan kelas "gambar."
 
 ○	width: Mengatur lebar gambar menjadi 100% dari lebar elemen "gambar" yang mengandungnya.
 
 ○	height: Menyesuaikan tinggi gambar agar tetap proporsional.
+
+
 5.	.deskripsi: Ini adalah aturan gaya untuk elemen dengan kelas "deskripsi."
 
 ○	width: Mengatur lebar elemen menjadi 60%.
