@@ -214,44 +214,22 @@ e.	Selesai.
 •       <link rel="stylesheet" type="text/css" href="css/style.css">: Menghubungkan file CSS eksternal dengan halaman web ini.
 
 •       <title>SneakyKicks</title>: Menentukan judul halaman yang akan ditampilkan pada tab peramban web.
+
+![alt text]
  
-Header:
-    <header>
-        <h1>SneakyKicks</h1>
-        <ul>
-            <li><a href="#">Beranda</a></li>
-            <li><a href="#">Tentang Kami</a></li>
-            <li><a href="#">Bantuan</a></li>
-        </ul>
-    </header>
 <h1>SneakyKicks</h1>: Menampilkan judul utama halaman web.
 <ul>: Ini adalah daftar tak-terurut (unordered list) yang berisi tautan ke halaman "Beranda", "Tentang Kami", dan "Bantuan" yang disusun dalam bentuk daftar dengan <li> (list item).
+	
 Dengan css:
-header {
-    background-color: #FF6B35;
-    color: #EEF4ED;
-    padding: 10px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+
+![alt text]
  
 background-color: Menentukan warna latar belakang header, yang dalam hal ini adalah oranye (#FF6B35).
 color: Mengatur warna teks dalam header menjadi putih (#EEF4ED).
 padding: Memberikan ruang bawah dan atas sebesar 10 piksel dan ruang kanan-kiri nol piksel pada header.
 display: Menggunakan flexbox untuk mengatur tata letak header dengan ratakan antara (justify-content: space-between) dan penyejajaran vertikal tengah (align-items: center).
  
-header ul li a {
-    text-decoration: none;
-    color: #EEF4ED;
-    font-weight: bold;
-    font-size: 16px;
-    transition: color 0.3s;
-}
- 
-header ul li a:hover {
-    color: #ff9900;
-}
+![alt text]
  
  
 ●	header ul li a: Menghilangkan garis bawah (text-decoration: none), memberikan warna putih pada teks (color: #EEF4ED), menerapkan cetakan tebal (font-weight: bold), dan membuat perubahan warna halus saat tautan dihover (transition: color 0.3s).
@@ -259,21 +237,7 @@ header ul li a:hover {
 ●	header ul li a:hover: Mengubah warna teks tautan menjadi oranye (#ff9900) saat tautan dihover.
  
  
-header h1 {
-    margin: 0;
-    padding-left: 20px;
-}
- 
-header ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
- 
-header ul li {
-    margin-right: 20px;
-}
+![alt text]
  
 1.	Gaya untuk judul utama di dalam header:
    
@@ -284,14 +248,11 @@ header ul li {
 ○	header ul: Menghilangkan daftar tak-terurut (list-style: none), mengatur margin dan padding menjadi nol.
 
 ○	header ul li: Memberikan margin kanan sebesar 20 piksel pada setiap elemen daftar.
+
 Footer:
-    <div class="footer">
-        <div class="container">
-            <p>Alamat: Jalan ketintang No. 123, Kota Surabaya</p>
-            <p>Email: info@sneakykicks.com</p>
-            <p>No Telepon: +62 8456-7890</p
-        </div>
-    </div>
+
+![alt text]
+  
 <div class="footer">: Ini adalah div yang mengelompokkan konten footer atau bagian bawah halaman web.
 ●	Di dalam &lt;div class="footer";, ada informasi kontak seperti alamat, email, dan nomor telepon.
 CSS:
