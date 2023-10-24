@@ -576,7 +576,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     </div>
             </div>
 
-1.	&lt;div class="faq-bar"&gt; : Ini adalah elemen <div> dengan kelas CSS "faq-bar". Ini digunakan untuk mengelompokkan setiap pasangan tautan FAQ dan jawabannya.
+1.	&lt;div class="faq-bar"&gt; : Ini adalah elemen &lt;div&gt; dengan kelas CSS "faq-bar". Ini digunakan untuk mengelompokkan setiap pasangan tautan FAQ dan jawabannya.
 2.	&lt;a href="#" class="faq-link" data-faq="faq1"&gt; Bagaimana cara saya menemukan review sepatu yang tepat? &lt;/a&gt; : Ini adalah tautan (elemen &lt;a&gt;) yang merupakan pertanyaan FAQ. Ini memiliki beberapa atribut:
 •	href="#": Ini adalah atribut href yang menentukan tujuan tautan, dalam hal ini, tautan ini akan tidak mengarahkan pengguna ke halaman lain karena nilai "#" digunakan untuk menghindari perubahan URL.
 
