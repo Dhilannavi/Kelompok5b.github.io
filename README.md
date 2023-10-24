@@ -667,7 +667,7 @@ document.addEventListener("DOMContentLoaded", function() {
 		<b>faq-bar</b>: Ini adalah selektor CSS yang mengarah pada elemen dengan kelas "faq-bar." Properti CSS yang diterapkan pada elemen ini adalah sebagai berikut:
 		<ul>
 			<li>
-				<b>text-decoration: none;<b>: Membatalkan dekorasi tautan (misalnya, garis bawah) pada elemen dengan kelas "faq-bar."
+				<b>text-decoration: none;</b>: Membatalkan dekorasi tautan (misalnya, garis bawah) pada elemen dengan kelas "faq-bar."
 			</li>
 			<li>
 				<b>color: #333;</b>: Mengatur warna teks menjadi abu-abu tua (#333).
@@ -699,7 +699,7 @@ document.addEventListener("DOMContentLoaded", function() {
 				<b>text-decoration</b>: none;: Membatalkan dekorasi tautan pada tautan FAQ.
 			</li>
 			<li>
-				color: #000000;: Mengatur warna teks tautan FAQ menjadi hitam (#000000).
+				<b>color: #000000;</b>: Mengatur warna teks tautan FAQ menjadi hitam (#000000).
 			</li>
 			<li>
 				<b>font-weight: bold;</b>: Membuat teks tautan FAQ menjadi tebal (bold).
@@ -728,7 +728,7 @@ document.addEventListener("DOMContentLoaded", function() {
 				<b>padding: 20px;</b>: Memberikan padding sebesar 20 piksel pada elemen jawaban.
 			</li>
 			<li>
-				<b>margin-top: 20px;<b>: Menambahkan jarak atas sebesar 20 piksel antara elemen jawaban dan elemen sebelumnya.
+				<b>margin-top: 20px;</b>: Menambahkan jarak atas sebesar 20 piksel antara elemen jawaban dan elemen sebelumnya.
 			</li>
 		</ul>
 	</li>
