@@ -537,7 +537,7 @@ document.addEventListener("DOMContentLoaded", function() {
 		<b>const faqItems = [...]</b>: Ini adalah array yang berisi objek-objek yang mewakili pertanyaan-pertanyaan FAQ. Setiap objek memiliki properti "id" yang digunakan untuk mengidentifikasi pertanyaan tertentu.
 	</li>
 	<li>
-		<b>const faqLinks = document.querySelectorAll(".faq-link");<b>: Ini adalah baris kode yang mengambil semua elemen dengan kelas "faq-link" dari dokumen HTML. Ini diasumsikan sebagai tautan atau tombol yang digunakan untuk memunculkan jawaban FAQ.
+		<b>const faqLinks = document.querySelectorAll(".faq-link");</b>: Ini adalah baris kode yang mengambil semua elemen dengan kelas "faq-link" dari dokumen HTML. Ini diasumsikan sebagai tautan atau tombol yang digunakan untuk memunculkan jawaban FAQ.
 	</li>
 	<li>
 		<b>faqLinks.forEach((link) => { ... });</b>: Ini adalah loop forEach yang akan menjalankan fungsi untuk setiap elemen "faq-link". Ini digunakan untuk menambahkan event listener click pada setiap tautan FAQ.
