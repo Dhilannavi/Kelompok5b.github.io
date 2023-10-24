@@ -199,11 +199,149 @@ d.	Memilih sepatu
 e.	Selesai.
 
 
+
 **Penjelasan:**
 
 -Head
 ![alt text](https://github.com/Dhilannavi/Kelompok5b.github.io/blob/master/asset/img/head.png)
 
 
+
+
+ 
+
+ 
+
+JavaScript
+document.addEventListener("DOMContentLoaded", function() {
+    const faqItems = [
+        {
+            id: "faq1",
+        },
+        {
+            id: "faq2",
+         },
+        {
+            id: "faq3",
+        }
+    ];
+
+    const faqLinks = document.querySelectorAll(".faq-link");
+
+    faqLinks.forEach((link) => {
+        link.addEventListener("click", (e) => {
+            e.preventDefault();
+            const faqId = link.getAttribute("data-faq");
+            const selectedFaq = faqItems.find((faq) => faq.id === faqId);
+
+            if (selectedFaq) {
+                const answerElement = document.querySelector(`#${faqId}-answer`);
+                if (answerElement) {
+                    if (answerElement.style.display === "none" || answerElement.style.display === "") {
+                        answerElement.style.display = "block";
+                    } else {
+                        answerElement.style.display = "none";
+                    }
+                }
+            }
+        });
+    });
+});
+
+
+1.	document.addEventListener("DOMContentLoaded", function() { ... });: Ini adalah event listener yang akan menjalankan kode JavaScript ketika dokumen HTML telah selesai dimuat (ketika DOMContentLoaded terpicu).
+2.	const faqItems = [...]: Ini adalah array yang berisi objek-objek yang mewakili pertanyaan-pertanyaan FAQ. Setiap objek memiliki properti "id" yang digunakan untuk mengidentifikasi pertanyaan tertentu.
+3.	const faqLinks = document.querySelectorAll(".faq-link");: Ini adalah baris kode yang mengambil semua elemen dengan kelas "faq-link" dari dokumen HTML. Ini diasumsikan sebagai tautan atau tombol yang digunakan untuk memunculkan jawaban FAQ.
+4.	faqLinks.forEach((link) => { ... });: Ini adalah loop forEach yang akan menjalankan fungsi untuk setiap elemen "faq-link". Ini digunakan untuk menambahkan event listener click pada setiap tautan FAQ.
+5.	link.addEventListener("click", (e) => { ... });: Ini adalah event listener yang akan menjalankan kode ketika salah satu tautan FAQ ditekan. Parameter e adalah objek event yang merepresentasikan event klik.
+6.	e.preventDefault();: Ini mencegah perilaku default dari event klik (misalnya, mengikuti tautan) sehingga halaman tidak akan terurai.
+7.	const faqId = link.getAttribute("data-faq");: Ini mengambil nilai atribut "data-faq" dari tautan FAQ yang ditekan. Atribut ini digunakan untuk mengidentifikasi pertanyaan FAQ yang sesuai.
+8.	const selectedFaq = faqItems.find((faq) => faq.id === faqId);: Ini mencari objek FAQ yang cocok dengan faqId dari array faqItems.
+9.	if (selectedFaq) { ... }: Ini memeriksa apakah objek FAQ yang cocok ditemukan.
+10.	const answerElement = document.querySelector(#${faqId}-answer);: Ini mencari elemen HTML dengan ID yang sesuai dengan pertanyaan FAQ yang ditekan, dengan tambahan "-answer" pada ID.
+11.	if (answerElement) { ... }: Ini memeriksa apakah elemen jawaban ditemukan.
+12.	Selanjutnya, kode mengubah tampilan elemen jawaban dengan mengatur properti style.display dari "none" menjadi "block" dan sebaliknya. Ini digunakan untuk menampilkan atau menyembunyikan jawaban FAQ saat tautan ditekan.
+
+HTML
+            <div class="faq-bar">
+                <a href="#" class="faq-link" data-faq="faq1">Bagaimana cara saya menemukan review sepatu yang tepat?</a>
+                    <div class= "faqanswer" id="faq1-answer" style="display: none">
+                        Anda dapat menemukan review sepatu yang sesuai dengan kebutuhan Anda dengan menjelajahi kategori sepatu yang Anda minati. Selain itu, Anda juga dapat memeriksa rating dan komentar dari reviewer.
+                    </div>
+            </div>
+
+            <div class="faq-bar">
+                <a href="#" class="faq-link" data-faq="faq2">Apakah review sepatu di situs ini dapat dipercaya?</a>
+                    <div class= "faqanswer" id="faq2-answer" style="display: none">
+                        Kami berusaha untuk menyediakan review sepatu yang akurat dan dapat dipercaya. Sebagian besar review berasal dari reviewer yang telah membeli dan mencoba sepatu tersebut. Namun, penting untuk diingat bahwa pengalaman pengguna dapat bervariasi, dan ulasan hanyalah pandangan individu.
+                    </div>
+            </div>
+
+            <div class="faq-bar">
+                <a href="#" class="faq-link" data-faq="faq3">Bagaimana cara saya tahu jika sepatu yang saya pilih cocok untuk saya?</a>
+                    <div class= "faqanswer" id="faq3-answer" style="display: none">
+                        Untuk menentukan apakah sepatu cocok untuk Anda, perhatikan ulasan, penilaian, dan komentar dari pengguna lain. Anda juga dapat mempertimbangkan faktor seperti ukuran, gaya, dan tujuan penggunaan sepatu. Jika memungkinkan, cobalah sepatu tersebut di toko fisik sebelum membelinya.
+                    </div>
+            </div>
+
+1.	<div class="faq-bar">: Ini adalah elemen <div> dengan kelas CSS "faq-bar". Ini digunakan untuk mengelompokkan setiap pasangan tautan FAQ dan jawabannya.
+2.	<a href="#" class="faq-link" data-faq="faq1">Bagaimana cara saya menemukan review sepatu yang tepat?</a>: Ini adalah tautan (elemen <a>) yang merupakan pertanyaan FAQ. Ini memiliki beberapa atribut:
+•	href="#": Ini adalah atribut href yang menentukan tujuan tautan, dalam hal ini, tautan ini akan tidak mengarahkan pengguna ke halaman lain karena nilai "#" digunakan untuk menghindari perubahan URL.
+•	class="faq-link": Ini memberikan tautan ini kelas CSS "faq-link", yang mungkin digunakan untuk merancang tampilan tautan secara khusus dengan CSS.
+•	data-faq="faq1": Ini adalah atribut data khusus yang digunakan untuk mengidentifikasi pertanyaan FAQ. Nilai atribut ini adalah "faq1" yang sesuai dengan kode JavaScript yang Anda sebutkan sebelumnya.
+3.	<div class="faqanswer" id="faq1-answer" style="display: none">: Ini adalah elemen <div> yang digunakan untuk jawaban FAQ. Ini memiliki beberapa atribut:
+•	class="faqanswer": Ini memberikan elemen ini kelas CSS "faqanswer", yang juga dapat digunakan untuk merancang tampilan jawaban dengan CSS.
+•	id="faq1-answer": Ini memberikan elemen ini ID unik "faq1-answer", yang digunakan dalam JavaScript untuk mengidentifikasi elemen jawaban yang sesuai dengan pertanyaan tertentu.
+•	style="display: none": Ini mengatur elemen jawaban untuk awalnya disembunyikan (tidak terlihat) dengan pengaturan CSS display: none. Ini akan diubah menjadi "block" atau "visible" saat pengguna mengklik pertanyaan FAQ terkait.
+
+CSS
+.faq-bar {
+   text-decoration: none;
+    color: #333;
+    padding: 20px 0px 20px 0px;
+    line-height: 20px;
+    display: solid;
+    border: 1px solid #dddddd;
+    width: auto;
+    margin-bottom: -1px;
+  }
+
+  .faq-bar a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+  .faqanswer {
+    display: none;
+    width: auto;
+    background: #e5e5e5;
+    padding: 20px;  
+    margin-top: 20px;
+  }
+
+1.	.faq-bar: Ini adalah selektor CSS yang mengarah pada elemen dengan kelas "faq-bar." Properti CSS yang diterapkan pada elemen ini adalah sebagai berikut:
+•	text-decoration: none;: Membatalkan dekorasi tautan (misalnya, garis bawah) pada elemen dengan kelas "faq-bar."
+•	color: #333;: Mengatur warna teks menjadi abu-abu tua (#333).
+•	padding: 20px 0px 20px 0px;: Mengatur jarak antara konten dan batas elemen, dengan padding atas dan bawah sebesar 20 piksel dan padding sisi kiri-kanan nol.
+•	line-height: 20px;: Mengatur ketinggian garis teks (line height) menjadi 20 piksel.
+•	display: solid;: Ini adalah deklarasi yang tidak valid; seharusnya "display: block;" untuk mengubah elemen menjadi elemen kotak blok.
+•	border: 1px solid #dddddd;: Menambahkan garis batas sebesar 1 piksel dengan warna abu-abu (#dddddd).
+•	width: auto;: Mengizinkan elemen untuk mengatur lebar secara otomatis sesuai dengan kontennya.
+•	margin-bottom: -1px;: Mengatur margin bawah sebesar -1 piksel, yang mungkin digunakan untuk menghilangkan jarak antara elemen-elemen yang memiliki kelas "faq-bar."
+2.	.faq-bar a: Ini adalah selektor CSS yang mengarah pada tautan yang berada dalam elemen dengan kelas "faq-bar." Properti CSS yang diterapkan pada tautan FAQ adalah sebagai berikut:
+•	text-decoration: none;: Membatalkan dekorasi tautan pada tautan FAQ.
+•	color: #000000;: Mengatur warna teks tautan FAQ menjadi hitam (#000000).
+•	font-weight: bold;: Membuat teks tautan FAQ menjadi tebal (bold).
+•	font-size: 16px;: Mengatur ukuran teks tautan FAQ menjadi 16 piksel.
+•	transition: color 0.3s;: Menerapkan transisi warna selama 0.3 detik ketika warna teks tautan berubah, yang bisa memberikan efek perubahan warna yang lembut saat tautan diklik.
+3.	.faqanswer: Ini adalah selektor CSS yang mengarah pada elemen dengan kelas "faqanswer," yang digunakan untuk mengatur tampilan jawaban FAQ. Properti CSS yang diterapkan pada elemen ini adalah sebagai berikut:
+•	display: none;: Awalnya, elemen jawaban akan disembunyikan dan tidak terlihat.
+•	width: auto;: Mengizinkan elemen jawaban untuk mengatur lebar secara otomatis sesuai dengan kontennya.
+•	background: #e5e5e5;: Mengatur warna latar belakang elemen jawaban menjadi abu-abu muda (#e5e5e5).
+•	padding: 20px;: Memberikan padding sebesar 20 piksel pada elemen jawaban.
+•	margin-top: 20px;: Menambahkan jarak atas sebesar 20 piksel antara elemen jawaban dan elemen sebelumnya.
 
 
