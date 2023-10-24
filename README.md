@@ -222,7 +222,7 @@ e.	Selesai.
 	
 Dengan css:
 
-![alt text]
+![alt text](https://github.com/Dhilannavi/Kelompok5b.github.io/blob/master/asset/img/bg%20cl.png)
  
 background-color: Menentukan warna latar belakang header, yang dalam hal ini adalah oranye (#FF6B35).
 color: Mengatur warna teks dalam header menjadi putih (#EEF4ED).
