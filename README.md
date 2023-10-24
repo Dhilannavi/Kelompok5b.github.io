@@ -724,13 +724,14 @@ CSS
 •	color: #000000;: Mengatur warna teks tautan FAQ menjadi hitam (#000000).
 •	font-weight: bold;: Membuat teks tautan FAQ menjadi tebal (bold).
 •	font-size: 16px;: Mengatur ukuran teks tautan FAQ menjadi 16 piksel.
-•	transition: color 0.3s;: Menerapkan transisi warna selama 0.3 detik ketika warna teks tautan berubah, yang bisa memberikan efek perubahan warna yang lembut saat tautan diklik.
-3.	.faqanswer: Ini adalah selektor CSS yang mengarah pada elemen dengan kelas "faqanswer," yang digunakan untuk mengatur tampilan jawaban FAQ. Properti CSS yang diterapkan pada elemen ini adalah sebagai berikut:
-•	display: none;: Awalnya, elemen jawaban akan disembunyikan dan tidak terlihat.
-•	width: auto;: Mengizinkan elemen jawaban untuk mengatur lebar secara otomatis sesuai dengan kontennya.
-•	background: #e5e5e5;: Mengatur warna latar belakang elemen jawaban menjadi abu-abu muda (#e5e5e5).
-•	padding: 20px;: Memberikan padding sebesar 20 piksel pada elemen jawaban.
-•	margin-top: 20px;: Menambahkan jarak atas sebesar 20 piksel antara elemen jawaban dan elemen sebelumnya.
+•transition: color 0.3s;: Menerapkan transisi warna selama 0.3 detik ketika warna teks tautan berubah, yang bisa memberikan efek perubahan warna yang lembut saat tautan diklik.
+4.	.faqanswer: Ini adalah selektor CSS yang mengarah pada elemen dengan kelas "faqanswer," yang digunakan untuk mengatur tampilan jawaban FAQ.
+Properti CSS yang diterapkan pada elemen ini adalah sebagai berikut:
+•display: none;: Awalnya, elemen jawaban akan disembunyikan dan tidak terlihat.
+•width: auto;: Mengizinkan elemen jawaban untuk mengatur lebar secara otomatis sesuai dengan kontennya.
+•background: #e5e5e5;: Mengatur warna latar belakang elemen jawaban menjadi abu-abu muda (#e5e5e5).
+•padding: 20px;: Memberikan padding sebesar 20 piksel pada elemen jawaban.
+•margin-top: 20px;: Menambahkan jarak atas sebesar 20 piksel antara elemen jawaban dan elemen sebelumnya.
 
 
 
