@@ -254,8 +254,12 @@ Footer:
 ![alt text](https://github.com/Dhilannavi/Kelompok5b.github.io/blob/master/asset/img/footer.png)
   
 &lt;div class="footer"&gt; : Ini adalah div yang mengelompokkan konten footer atau bagian bawah halaman web.
+
 ●	Di dalam &lt;div class="footer"&gt;, ada informasi kontak seperti alamat, email, dan nomor telepon.
+
+
 CSS:
+
 .footer {
     padding: 25px 0;
     background-color: #FF6B35;
@@ -321,6 +325,7 @@ Kategori
 
 
 CSS:
+
 .shoe-category {
     display: flex;
     justify-content: space-around;
@@ -450,6 +455,7 @@ List Item:
 
 
 CSS:
+
 .shoe-item {
     width: 300;
     margin: 20px;
@@ -534,12 +540,16 @@ Detail Sepatu:
                 </p>
  
 &lt;div class="box deskripsi"&gt; : Ini adalah div yang digunakan untuk menampilkan deskripsi produk.
+
 ●	&lt;h3&gt;New Balance 5740&lt;/h3&gt; : Menampilkan judul produk "New Balance 5740."
+
 ●	&lt;h4&gt;Rp. 2.300.000&lt;/h4&gt; : Menampilkan harga produk.
+
 ●	&lt;p&gt;Review : ...&gt;/p&lt; : Ini adalah paragraf yang berisi ulasan atau deskripsi produk. Anda dapat menambahkan lebih banyak konten teks atau informasi produk di dalam paragraf ini.
 
 
 CSS:
+
 .section {
     padding:25px 0;
 }
