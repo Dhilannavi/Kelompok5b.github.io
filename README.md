@@ -251,7 +251,7 @@ display: Menggunakan flexbox untuk mengatur tata letak header dengan ratakan ant
 
 Footer:
 
-![alt text]
+![alt text](https://github.com/Dhilannavi/Kelompok5b.github.io/blob/master/asset/img/footer.png)
   
 <div class="footer">: Ini adalah div yang mengelompokkan konten footer atau bagian bawah halaman web.
 ●	Di dalam &lt;div class="footer";, ada informasi kontak seperti alamat, email, dan nomor telepon.
