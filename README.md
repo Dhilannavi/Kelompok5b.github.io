@@ -711,26 +711,44 @@ CSS
   }
 
 1.	.faq-bar: Ini adalah selektor CSS yang mengarah pada elemen dengan kelas "faq-bar." Properti CSS yang diterapkan pada elemen ini adalah sebagai berikut:
-•	text-decoration: none;: Membatalkan dekorasi tautan (misalnya, garis bawah) pada elemen dengan kelas "faq-bar."
-•	color: #333;: Mengatur warna teks menjadi abu-abu tua (#333).
-•	padding: 20px 0px 20px 0px;: Mengatur jarak antara konten dan batas elemen, dengan padding atas dan bawah sebesar 20 piksel dan padding sisi kiri-kanan nol.
-•	line-height: 20px;: Mengatur ketinggian garis teks (line height) menjadi 20 piksel.
-•	display: solid;: Ini adalah deklarasi yang tidak valid; seharusnya "display: block;" untuk mengubah elemen menjadi elemen kotak blok.
-•	border: 1px solid #dddddd;: Menambahkan garis batas sebesar 1 piksel dengan warna abu-abu (#dddddd).
-•	width: auto;: Mengizinkan elemen untuk mengatur lebar secara otomatis sesuai dengan kontennya.
-•	margin-bottom: -1px;: Mengatur margin bawah sebesar -1 piksel, yang mungkin digunakan untuk menghilangkan jarak antara elemen-elemen yang memiliki kelas "faq-bar."
+
+•text-decoration: none;: Membatalkan dekorasi tautan (misalnya, garis bawah) pada elemen dengan kelas "faq-bar."
+
+•color: #333;: Mengatur warna teks menjadi abu-abu tua (#333).
+
+•padding: 20px 0px 20px 0px;: Mengatur jarak antara konten dan batas elemen, dengan padding atas dan bawah sebesar 20 piksel dan padding sisi kiri-kanan nol.
+
+•line-height: 20px;: Mengatur ketinggian garis teks (line height) menjadi 20 piksel.
+
+•display: solid;: Ini adalah deklarasi yang tidak valid; seharusnya "display: block;" untuk mengubah elemen menjadi elemen kotak blok.
+
+•border: 1px solid #dddddd;: Menambahkan garis batas sebesar 1 piksel dengan warna abu-abu (#dddddd).
+
+•width: auto;: Mengizinkan elemen untuk mengatur lebar secara otomatis sesuai dengan kontennya.
+
+•margin-bottom: -1px;: Mengatur margin bawah sebesar -1 piksel, yang mungkin digunakan untuk menghilangkan jarak antara elemen-elemen yang memiliki kelas "faq-bar."
 2.	.faq-bar a: Ini adalah selektor CSS yang mengarah pada tautan yang berada dalam elemen dengan kelas "faq-bar." Properti CSS yang diterapkan pada tautan FAQ adalah sebagai berikut:
-•	text-decoration: none;: Membatalkan dekorasi tautan pada tautan FAQ.
-•	color: #000000;: Mengatur warna teks tautan FAQ menjadi hitam (#000000).
-•	font-weight: bold;: Membuat teks tautan FAQ menjadi tebal (bold).
-•	font-size: 16px;: Mengatur ukuran teks tautan FAQ menjadi 16 piksel.
+
+•text-decoration: none;: Membatalkan dekorasi tautan pada tautan FAQ.
+
+•color: #000000;: Mengatur warna teks tautan FAQ menjadi hitam (#000000).
+
+•font-weight: bold;: Membuat teks tautan FAQ menjadi tebal (bold).
+
+•font-size: 16px;: Mengatur ukuran teks tautan FAQ menjadi 16 piksel.
+
 •transition: color 0.3s;: Menerapkan transisi warna selama 0.3 detik ketika warna teks tautan berubah, yang bisa memberikan efek perubahan warna yang lembut saat tautan diklik.
 4.	.faqanswer: Ini adalah selektor CSS yang mengarah pada elemen dengan kelas "faqanswer," yang digunakan untuk mengatur tampilan jawaban FAQ.
 Properti CSS yang diterapkan pada elemen ini adalah sebagai berikut:
+
 •display: none;: Awalnya, elemen jawaban akan disembunyikan dan tidak terlihat.
+
 •width: auto;: Mengizinkan elemen jawaban untuk mengatur lebar secara otomatis sesuai dengan kontennya.
+
 •background: #e5e5e5;: Mengatur warna latar belakang elemen jawaban menjadi abu-abu muda (#e5e5e5).
+
 •padding: 20px;: Memberikan padding sebesar 20 piksel pada elemen jawaban.
+
 •margin-top: 20px;: Menambahkan jarak atas sebesar 20 piksel antara elemen jawaban dan elemen sebelumnya.
 
 
