@@ -316,54 +316,7 @@ Kategori
 
 CSS:
 
-.shoe-category {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    background-color: #5b7c99; /* Warna biru contoh */
-    padding: 20px;
-}
- 
-.shoe-category img {
-    width: 300px;
-    height: 200px;
-    margin: 20px;
-    border: 1px solid #EEF4ED;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-}
- 
-.shoe-category img {
-    max-width: 100%;
-    height: auto;
-}
- 
-.shoe-category a:hover {
-    color: #ff9900;
-}
- 
-.shoe-category a {
-    text-decoration: none;
-    color: #333;
-}
- 
-.box {
-    display: inline-block;
-    background-color: #fff;
-    border:1px solid #ccc;
-    padding:5px;
-    box-sizing: border-box;
-    margin:15px 15px 15px 15px;
-    border: 1px solid #EEF4ED;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-}
- 
-.shoe-category {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+![alt text](https://github.com/Dhilannavi/Kelompok5b.github.io/blob/master/asset/img/css%20shoe%20category.png)
 
 1.	.container: Ini adalah aturan gaya untuk elemen dengan kelas "container," yang mengendalikan tampilan konten utama di halaman.
 
@@ -446,41 +399,7 @@ List Item:
 
 CSS:
 
-.shoe-item {
-    width: 300;
-    margin: 20px;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-    background-color: #fff;
-    text-align: center;
-    transition: transform 0.2s;
-}
- 
-.shoe-item:hover {
-    transform: scale(1.05);
-}
- 
-.shoe-item img {
-    max-width: 100%;
-    height: auto;
-}
- 
-.shoe-item h3 {
-    margin-top: 10px;
-    font-size: 18px;
-}
- 
-/* Gaya untuk tautan ke halaman detail sepatu */
-.shoe-item a {
-    text-decoration: none;
-    color: #333;
-}
- 
-.shoe-item a:hover {
-    color: #ff9900;
-}
+![alt text](https://github.com/Dhilannavi/Kelompok5b.github.io/blob/master/asset/img/css%20shoe%20item.png)
 
  
 1.	.shoe-item: Ini adalah aturan gaya untuk elemen dengan kelas "shoe-item," yang mengendalikan tampilan detail sepatu.
