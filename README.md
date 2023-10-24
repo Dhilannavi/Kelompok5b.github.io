@@ -217,7 +217,7 @@ e.	Selesai.
 
 ![alt text](https://github.com/Dhilannavi/Kelompok5b.github.io/blob/master/asset/img/header%201.png)
  
-<h1>SneakyKicks</h1>: Menampilkan judul utama halaman web.
+&lt;h1&gt;SneakyKicks</h1>: Menampilkan judul utama halaman web.
 <ul>: Ini adalah daftar tak-terurut (unordered list) yang berisi tautan ke halaman "Beranda", "Tentang Kami", dan "Bantuan" yang disusun dalam bentuk daftar dengan <li> (list item).
 	
 Dengan css:
