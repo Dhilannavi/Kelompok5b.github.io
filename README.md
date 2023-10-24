@@ -229,7 +229,7 @@ color: Mengatur warna teks dalam header menjadi putih (#EEF4ED).
 padding: Memberikan ruang bawah dan atas sebesar 10 piksel dan ruang kanan-kiri nol piksel pada header.
 display: Menggunakan flexbox untuk mengatur tata letak header dengan ratakan antara (justify-content: space-between) dan penyejajaran vertikal tengah (align-items: center).
  
-![alt text]
+![alt text](https://github.com/Dhilannavi/Kelompok5b.github.io/blob/master/asset/img/header%20ul.png)
  
  
 ●	header ul li a: Menghilangkan garis bawah (text-decoration: none), memberikan warna putih pada teks (color: #EEF4ED), menerapkan cetakan tebal (font-weight: bold), dan membuat perubahan warna halus saat tautan dihover (transition: color 0.3s).
