@@ -276,9 +276,12 @@ header ul li {
 }
  
 1.	Gaya untuk judul utama di dalam header:
+   
 ○	header h1: Menghapus margin atas dan kiri (margin: 0, padding-left: 20px).
-2.	Gaya untuk daftar dalam header:
+3.	Gaya untuk daftar dalam header:
+
 ○	header ul: Menghilangkan daftar tak-terurut (list-style: none), mengatur margin dan padding menjadi nol.
+
 ○	header ul li: Memberikan margin kanan sebesar 20 piksel pada setiap elemen daftar.
 Footer:
     <div class="footer">
@@ -289,7 +292,7 @@ Footer:
         </div>
     </div>
 <div class="footer">: Ini adalah div yang mengelompokkan konten footer atau bagian bawah halaman web.
-●	Di dalam <div class="footer">, ada informasi kontak seperti alamat, email, dan nomor telepon.
+●	Di dalam &lt;div class="footer";, ada informasi kontak seperti alamat, email, dan nomor telepon.
 CSS:
 .footer {
     padding: 25px 0;
@@ -305,11 +308,16 @@ CSS:
   
  
 1.	.footer:
+
 ○	padding: 25px 0;: Ini mengatur padding (ruang tambahan di dalam elemen) pada bagian atas dan bawah elemen "footer" sebesar 25 piksel, sementara padding horizontalnya (kiri dan kanan) tetap 0, sehingga memberikan ruang di atas dan bawah konten dalam elemen "footer."
+
 ○	background-color: #FF6B35;: Menentukan warna latar belakang elemen "footer" menjadi oranye tua (#FF6B35).
+
 ○	color: #EEF4ED;: Mengatur warna teks dalam elemen "footer" menjadi putih (#EEF4ED).
+
 ○	text-align: center;: Mengatur teks di dalam elemen "footer" menjadi rata tengah secara horizontal.
 2.	.footer p:
+
 ○	margin-bottom: 10px;: Mengatur margin bawah (ruang tambahan di bawah) dari paragraf dalam elemen "footer" sebesar 10 piksel. Ini membantu memberikan ruang antara paragraf-paragraf di dalam elemen "footer" agar tidak terlalu rapat satu sama lain.
 Kategori
  
@@ -396,30 +404,49 @@ CSS:
     justify-content: center;
 }
 1.	.container: Ini adalah aturan gaya untuk elemen dengan kelas "container," yang mengendalikan tampilan konten utama di halaman.
+
 ○	max-width: Membatasi lebar elemen "container" menjadi maksimal 1200 piksel.
+
 ○	margin: Memberikan margin di atas dan bawah sebesar 25 piksel dan margin horizontal otomatis untuk memusatkan konten.
+
 ○	text-align: Mengatur teks di dalam "container" menjadi rata tengah.
   
  
 2.	.shoe-category: Ini adalah aturan gaya untuk elemen dengan kelas "shoe-category," yang mengendalikan tampilan kategori sepatu.
+
 ○	display: Menggunakan flexbox untuk mengatur tata letak kategori sepatu dengan ruang sekitar yang merata (space-around) dan fleksibilitas perataan baris (flex-wrap: wrap).
+
 ○	background-color: Memberikan warna latar belakang kategori sepatu, dalam hal ini adalah biru (#5b7c99).
+
 ○	padding: Memberikan ruang sekitar isi kategori sepatu sebesar 20 piksel.
 3.	.shoe-category img: Ini adalah aturan gaya untuk gambar di dalam kategori sepatu.
+
 ○	width dan height: Mengatur lebar dan tinggi gambar menjadi 300 piksel x 200 piksel.
+
 ○	margin: Memberikan margin sekitar gambar sebesar 20 piksel.
+
 ○	border: Menambahkan border sebesar 1 piksel dengan warna putih (#EEF4ED).
+
 ○	border-radius: Mengubah sudut gambar menjadi melengkung (border-radius: 5px).
+
 ○	box-shadow: Menambahkan bayangan pada gambar dengan efek bayangan lembut.
 4.	.shoe-category a: Gaya untuk tautan ke halaman detail sepatu dalam kategori sepatu.
+
 ○	text-decoration: Menghapus garis bawah dari tautan.
+
 ○	color: Memberikan warna teks tautan menjadi abu-abu tua (#333).
 5.	.box: Ini adalah aturan gaya untuk elemen dengan kelas "box" di dalam kategori sepatu.
+
 ○	display: Mengatur elemen untuk ditampilkan sebagai inline-block.
+
 ○	background-color: Memberikan warna latar belakang elemen menjadi putih (#fff).
+
 ○	border: Menambahkan border sebesar 1 piksel dengan warna abu-abu muda (#ccc).
+
 ○	padding: Memberikan ruang sekitar elemen sebesar 5 piksel.
+
 ○	border-radius: Mengubah sudut elemen menjadi melengkung (border-radius: 5px).
+
 ○	box-shadow: Menambahkan bayangan pada elemen dengan efek bayangan lembut.
  
 
@@ -485,21 +512,32 @@ CSS:
 }
  
 1.	.shoe-item: Ini adalah aturan gaya untuk elemen dengan kelas "shoe-item," yang mengendalikan tampilan detail sepatu.
+
 ○	width: Mengatur lebar elemen menjadi 300 piksel.
+
 ○	margin: Memberikan margin sekitar elemen sebesar 20 piksel.
+
 ○	padding: Memberikan padding sebesar 10 piksel.
+
 ○	border: Menambahkan border sebesar 1 piksel dengan warna abu-abu muda (#ddd).
+
 ○	border-radius: Mengubah sudut elemen menjadi melengkung (border-radius: 5px).
+
 ○	box-shadow: Menambahkan bayangan pada elemen dengan efek bayangan lembut.
+
 ○	background-color: Memberikan warna latar belakang elemen menjadi putih (#fff).
+
 ○	text-align: Mengatur teks di dalam elemen menjadi rata tengah.
+
 ○	transition: Menerapkan transisi transformasi saat elemen dihover (transform: scale(1.05)).
   
  
  
  
 2.	Gaya untuk tautan ke halaman detail sepatu di dalam elemen "shoe-item":
+
 ○	.shoe-item a: Menghapus garis bawah dari tautan.
+
 ○	.shoe-item a:hover: Mengubah warna teks tautan menjadi oranye (#ff9900) saat tautan dihover.
  
  
@@ -546,18 +584,27 @@ CSS:
     width: 60%;
 }
 1.	.section: Ini adalah aturan gaya untuk elemen dengan kelas "section."
+
 ○	padding: Memberikan padding di atas dan bawah sebesar 25 piksel.
 2.	.inline-box: Gaya untuk elemen dengan kelas "inline-box."
+
 ○	width: Mengatur lebar elemen menjadi 100%.
+
 ○	display: Mengatur elemen menjadi inline-block.
+
 ○	background-color: Memberikan warna latar belakang elemen menjadi putih.
+
 ○	justify-content: Mengatur perataan konten ke tengah (center) secara horizontal.
 3.	.gambar: Ini adalah aturan gaya untuk elemen dengan kelas "gambar."
+
 ○	width: Mengatur lebar elemen menjadi 30%.
 4.	.gambar img: Ini adalah aturan gaya untuk gambar di dalam elemen dengan kelas "gambar."
+
 ○	width: Mengatur lebar gambar menjadi 100% dari lebar elemen "gambar" yang mengandungnya.
+
 ○	height: Menyesuaikan tinggi gambar agar tetap proporsional.
 5.	.deskripsi: Ini adalah aturan gaya untuk elemen dengan kelas "deskripsi."
+
 ○	width: Mengatur lebar elemen menjadi 60%.
 
 
