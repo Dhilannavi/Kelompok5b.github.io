@@ -499,13 +499,13 @@ CSS:
 
  
 
- 
+  ‏   ‏‏  ‏‏‏  ‏  ‏‏ ‏‏‏‏ ‏‏ ‏‏ ‏  ‏      ‏ ‏ ‏   ‏‏ ‏    ‏‏  ‏ ‏  ‏      ‏   ‏‏‏ ‏‏ ‏‏   ‏‏ ‏‏‏‏ ‏‏   ‏  ‏‏    ‏ ‏‏ ‏‏    ‏      ‏     ‏ ‏‏ ‏‏‏  ‏‏‏ ‏   ‏‏ ‏  ‏  ‏ ‏‏ ‏ ‏ ‏ ‏   ‏‏  ‏ ‏ ‏‏‏  ‏  ‏‏‏  ‏  ‏‏ ‏‏‏‏ ‏‏‏  ‏  ‏‏ ‏  ‏ ‏‏‏  ‏‏ ‏‏‏ ‏   ‏‏‏  ‏‏  ‏      ‏ ‏ ‏   ‏‏    ‏ ‏‏   ‏‏ ‏‏‏ ‏   ‏‏ ‏  ‏ ‏‏   ‏‏ ‏‏‏  ‏‏    ‏ ‏     ‏ ‏  ‏  ‏  ‏ ‏‏  ‏‏   ‏      ‏‏‏‏  ‏ ‏‏ ‏‏‏‏ ‏‏‏ ‏ ‏  ‏      ‏‏‏  ‏  ‏‏  ‏ ‏ ‏‏    ‏ ‏‏  ‏    ‏      ‏‏‏ ‏   ‏‏ ‏    ‏‏ ‏  ‏ ‏‏‏  ‏‏  ‏      ‏‏‏‏  ‏ ‏‏ ‏‏‏‏ ‏‏‏ ‏ ‏  ‏      ‏‏‏     ‏‏    ‏ ‏‏‏  ‏‏ ‏‏‏  ‏‏ ‏‏  ‏ ‏ ‏‏  ‏    ‏ ‏‏‏   ‏      ‏    ‏‏ ‏‏ ‏‏‏‏ ‏‏ ‏‏‏  ‏‏  ‏‏‏ ‏‏‏  ‏  ‏‏    ‏ ‏‏‏ ‏   ‏‏‏  ‏‏  ‏ ‏‏‏     ‏ ‏  ‏ ‏‏  ‏ ‏‏ ‏‏‏‏ ‏‏‏ ‏ ‏ ‏‏‏  ‏   ‏      ‏‏  ‏‏  ‏‏ ‏  ‏ ‏‏‏  ‏  ‏‏‏  ‏‏ ‏‏‏ ‏    ‏      ‏‏‏ ‏   ‏‏    ‏ ‏‏‏  ‏‏ ‏‏ ‏ ‏‏  ‏      ‏‏‏ ‏‏‏ ‏‏ ‏  ‏ ‏‏ ‏‏   ‏‏ ‏‏    ‏      ‏‏   ‏‏ ‏‏ ‏‏‏‏ ‏‏ ‏‏ ‏ ‏‏  ‏ ‏  ‏      ‏‏‏ ‏   ‏‏ ‏‏‏‏ ‏‏ ‏‏ ‏ ‏‏ ‏‏‏‏ ‏‏‏  ‏  ‏‏‏  ‏  ‏‏ ‏‏‏‏ ‏‏‏ ‏‏‏  ‏ ‏‏‏     ‏ ‏  ‏   ‏‏‏ ‏‏ ‏‏‏‏ ‏‏ ‏‏‏‏ ‏‏  ‏    ‏      ‏‏ ‏‏   ‏‏‏ ‏ ‏ ‏‏   ‏‏ ‏‏ ‏ ‏‏  ‏ ‏‏‏     ‏ ‏     ‏ ‏  ‏    ‏‏ ‏ ‏ ‏   ‏   ‏‏  ‏‏ ‏‏   ‏‏  ‏ ‏ ‏‏    ‏ ‏‏‏  ‏  ‏‏ ‏‏‏  ‏‏‏‏ ‏‏ ‏  ‏  ‏ <div>
 
 <h3>JavaScript</h3>
 
 document.addEventListener("DOMContentLoaded", function() {
     const faqItems = [
-    	{
+        {
             id: "faq1",
         },
         {
@@ -530,32 +530,51 @@ document.addEventListener("DOMContentLoaded", function() {
                     if (answerElement.style.display === "none" || answerElement.style.display === "") {
                         answerElement.style.display = "block";
                     } else {
-                        answerElement.style.display = "none";
-                    }
-                }
-            }
-        });
-    });
-});
 
+<ol>
+	<li><b>document.addEventListener("DOMContentLoaded", function() { ... });</b>: Ini adalah event listener yang akan menjalankan kode JavaScript ketika dokumen HTML telah selesai dimuat (ketika DOMContentLoaded terpicu).</li>
+	<li>
+		<b>const faqItems = [...]</b>: Ini adalah array yang berisi objek-objek yang mewakili pertanyaan-pertanyaan FAQ. Setiap objek memiliki properti "id" yang digunakan untuk mengidentifikasi pertanyaan tertentu.
+	</li>
+	<li>
+		<b>const faqLinks = document.querySelectorAll(".faq-link");<b>: Ini adalah baris kode yang mengambil semua elemen dengan kelas "faq-link" dari dokumen HTML. Ini diasumsikan sebagai tautan atau tombol yang digunakan untuk memunculkan jawaban FAQ.
+	</li>
+	<li>
+		<b>faqLinks.forEach((link) => { ... });</b>: Ini adalah loop forEach yang akan menjalankan fungsi untuk setiap elemen "faq-link". Ini digunakan untuk menambahkan event listener click pada setiap tautan FAQ.
+	</li>
+	<li>
+		<b>link.addEventListener("click", (e) => { ... });</b>: Ini adalah event listener yang akan menjalankan kode ketika salah satu tautan FAQ ditekan. Parameter e adalah objek event yang merepresentasikan event klik.
+	</li>
+	<li>
+		<b>e.preventDefault();</b>: Ini mencegah perilaku default dari event klik (misalnya, mengikuti tautan) sehingga halaman tidak akan terurai.
+	</li>
+	<li>
+		<b>const faqId = link.getAttribute("data-faq");</b>: Ini mengambil nilai atribut "data-faq" dari tautan FAQ yang ditekan. Atribut ini digunakan untuk mengidentifikasi pertanyaan FAQ yang sesuai.
+	</li>
+	<li>
+		<b>const selectedFaq = faqItems.find((faq) => faq.id === faqId);</b>: Ini mencari objek FAQ yang cocok dengan <b>faqId</b> dari array <b>faqItems</b>.
+	</li>
+	<li>
+		<b>if (selectedFaq) { ... }</b>: Ini memeriksa apakah objek FAQ yang cocok ditemukan.
+	</li>
+	<li>
+		<b>const answerElement = document.querySelector(#${faqId}-answer);</b>: Ini mencari elemen HTML dengan ID yang sesuai dengan pertanyaan FAQ yang ditekan, dengan tambahan "-answer" pada ID.
+	</li>
+	<li>
+		<b>if (answerElement) { ... }</b>: Ini memeriksa apakah elemen jawaban ditemukan.
+	</li>
+	<li>
+		Selanjutnya, kode mengubah tampilan elemen jawaban dengan mengatur properti <b>style.display</b> dari "none" menjadi "block" dan sebaliknya. Ini digunakan untuk menampilkan atau menyembunyikan jawaban FAQ saat tautan ditekan.
+	</li>
+</ol>
 
-1.	document.addEventListener("DOMContentLoaded", function() { ... });: Ini adalah event listener yang akan menjalankan kode JavaScript ketika dokumen HTML telah selesai dimuat (ketika DOMContentLoaded terpicu).
-2.	const faqItems = [...]: Ini adalah array yang berisi objek-objek yang mewakili pertanyaan-pertanyaan FAQ. Setiap objek memiliki properti "id" yang digunakan untuk mengidentifikasi pertanyaan tertentu.
-3.	const faqLinks = document.querySelectorAll(".faq-link");: Ini adalah baris kode yang mengambil semua elemen dengan kelas "faq-link" dari dokumen HTML. Ini diasumsikan sebagai tautan atau tombol yang digunakan untuk memunculkan jawaban FAQ.
-4.	faqLinks.forEach((link) => { ... });: Ini adalah loop forEach yang akan menjalankan fungsi untuk setiap elemen "faq-link". Ini digunakan untuk menambahkan event listener click pada setiap tautan FAQ.
-5.	link.addEventListener("click", (e) => { ... });: Ini adalah event listener yang akan menjalankan kode ketika salah satu tautan FAQ ditekan. Parameter e adalah objek event yang merepresentasikan event klik.
-6.	e.preventDefault();: Ini mencegah perilaku default dari event klik (misalnya, mengikuti tautan) sehingga halaman tidak akan terurai.
-7.	const faqId = link.getAttribute("data-faq");: Ini mengambil nilai atribut "data-faq" dari tautan FAQ yang ditekan. Atribut ini digunakan untuk mengidentifikasi pertanyaan FAQ yang sesuai.
-8.	const selectedFaq = faqItems.find((faq) => faq.id === faqId);: Ini mencari objek FAQ yang cocok dengan faqId dari array faqItems.
-9.	if (selectedFaq) { ... }: Ini memeriksa apakah objek FAQ yang cocok ditemukan.
-10.	const answerElement = document.querySelector(#${faqId}-answer);: Ini mencari elemen HTML dengan ID yang sesuai dengan pertanyaan FAQ yang ditekan, dengan tambahan "-answer" pada ID.
-11.	if (answerElement) { ... }: Ini memeriksa apakah elemen jawaban ditemukan.
-12.	Selanjutnya, kode mengubah tampilan elemen jawaban dengan mengatur properti style.display dari "none" menjadi "block" dan sebaliknya. Ini digunakan untuk menampilkan atau menyembunyikan jawaban FAQ saat tautan ditekan.
+</div>
 
+<div>
 
 <h3>HTML</h3>
 
-	<div class="faq-bar">
+            <div class="faq-bar">
                 <a href="#" class="faq-link" data-faq="faq1">Bagaimana cara saya menemukan review sepatu yang tepat?</a>
                     <div class= "faqanswer" id="faq1-answer" style="display: none">
                         Anda dapat menemukan review sepatu yang sesuai dengan kebutuhan Anda dengan menjelajahi kategori sepatu yang Anda minati. Selain itu, Anda juga dapat memeriksa rating dan komentar dari reviewer.
@@ -576,24 +595,45 @@ document.addEventListener("DOMContentLoaded", function() {
                     </div>
             </div>
 
-1.	&lt;div class="faq-bar"&gt; : Ini adalah elemen &lt;div&gt; dengan kelas CSS "faq-bar". Ini digunakan untuk mengelompokkan setiap pasangan tautan FAQ dan jawabannya.
-2.	&lt;a href="#" class="faq-link" data-faq="faq1"&gt; Bagaimana cara saya menemukan review sepatu yang tepat? &lt;/a&gt; : Ini adalah tautan (elemen &lt;a&gt;) yang merupakan pertanyaan FAQ. Ini memiliki beberapa atribut:
-•	href="#": Ini adalah atribut href yang menentukan tujuan tautan, dalam hal ini, tautan ini akan tidak mengarahkan pengguna ke halaman lain karena nilai "#" digunakan untuk menghindari perubahan URL.
+<ol>
+	<li>
+		<b><div class="faq-bar"></b>: Ini adalah elemen <div> dengan kelas CSS "faq-bar". Ini digunakan untuk mengelompokkan setiap pasangan tautan FAQ dan jawabannya.
+	</li>
+	<li>
+		<b><a href="#" class="faq-link" data-faq="faq1">Bagaimana cara saya menemukan review sepatu yang tepat?</a></b>: Ini adalah tautan (elemen <a>) yang merupakan pertanyaan FAQ. Ini memiliki beberapa atribut:
+		<ul>
+			<li>
+				<b>href="#"</b>: Ini adalah atribut href yang menentukan tujuan tautan, dalam hal ini, tautan ini akan tidak mengarahkan pengguna ke halaman lain karena nilai "#" digunakan untuk menghindari perubahan URL.
+			</li>
+			<li>
+				<b>class="faq-link"</b>: Ini memberikan tautan ini kelas CSS "faq-link", yang mungkin digunakan untuk merancang tampilan tautan secara khusus dengan CSS.
+			</li>
+			<li>
+				<b>data-faq="faq1"</b>: Ini adalah atribut data khusus yang digunakan untuk mengidentifikasi pertanyaan FAQ. Nilai atribut ini adalah "faq1" yang sesuai dengan kode JavaScript yang Anda sebutkan sebelumnya.
+			</li>
+		</ul>
+	</li>
+	<li>
+		<b><div class="faqanswer" id="faq1-answer" style="display: none"><b>: Ini adalah elemen <div> yang digunakan untuk jawaban FAQ. Ini memiliki beberapa atribut:
+		<ul>
+			<li>
+				<b>class="faqanswer"</b>: Ini memberikan elemen ini kelas CSS "faqanswer", yang juga dapat digunakan untuk merancang tampilan jawaban dengan CSS.
+			</li>
+			<li>
+				<b>id="faq1-answer"</b>: Ini memberikan elemen ini ID unik "faq1-answer", yang digunakan dalam JavaScript untuk mengidentifikasi elemen jawaban yang sesuai dengan pertanyaan tertentu.
+			</li>
+			<li>
+				<b>style="display: none"</b>: Ini mengatur elemen jawaban untuk awalnya disembunyikan (tidak terlihat) dengan pengaturan CSS display: none. Ini akan diubah menjadi "block" atau "visible" saat pengguna mengklik pertanyaan FAQ terkait.
+			</li>
+		</ul>
+	</li>
+</ol>
 
-•	class="faq-link": Ini memberikan tautan ini kelas CSS "faq-link", yang mungkin digunakan untuk merancang tampilan tautan secara khusus dengan CSS.
-
-•	data-faq="faq1": Ini adalah atribut data khusus yang digunakan untuk mengidentifikasi pertanyaan FAQ. Nilai atribut ini adalah "faq1" yang sesuai dengan kode JavaScript yang Anda sebutkan sebelumnya.
-3.	&lt;div class="faqanswer" id="faq1-answer" style="display: none"&gt; : Ini adalah elemen &lt;div&gt; yang digunakan untuk jawaban FAQ. Ini memiliki beberapa atribut:
-
-•	class="faqanswer": Ini memberikan elemen ini kelas CSS "faqanswer", yang juga dapat digunakan untuk merancang tampilan jawaban dengan CSS.
-
-•	id="faq1-answer": Ini memberikan elemen ini ID unik "faq1-answer", yang digunakan dalam JavaScript untuk mengidentifikasi elemen jawaban yang sesuai dengan pertanyaan tertentu.
-
-•	style="display: none": Ini mengatur elemen jawaban untuk awalnya disembunyikan (tidak terlihat) dengan pengaturan CSS display: none. Ini akan diubah menjadi "block" atau "visible" saat pengguna mengklik pertanyaan FAQ terkait.
+</div>
 
 <div>
+
 <h3>CSS</h3>
-</div>
 
 .faq-bar {
    text-decoration: none;
@@ -622,49 +662,84 @@ document.addEventListener("DOMContentLoaded", function() {
     margin-top: 20px;
   }
 
-1.	.faq-bar: Ini adalah selektor CSS yang mengarah pada elemen dengan kelas "faq-bar." Properti CSS yang diterapkan pada elemen ini adalah sebagai berikut:
+<ol>
+	<li>
+		<b>faq-bar</b>: Ini adalah selektor CSS yang mengarah pada elemen dengan kelas "faq-bar." Properti CSS yang diterapkan pada elemen ini adalah sebagai berikut:
+		<ul>
+			<li>
+				<b>text-decoration: none;<b>: Membatalkan dekorasi tautan (misalnya, garis bawah) pada elemen dengan kelas "faq-bar."
+			</li>
+			<li>
+				<b>color: #333;</b>: Mengatur warna teks menjadi abu-abu tua (#333).
+			</li>
+			<li>
+				<b>padding: 20px 0px 20px 0px;</b>: Mengatur jarak antara konten dan batas elemen, dengan padding atas dan bawah sebesar 20 piksel dan padding sisi kiri-kanan nol.
+			</li>
+			<li>
+				<b>line-height: 20px;</b>: Mengatur ketinggian garis teks (line height) menjadi 20 piksel.
+			</li>
+			<li>
+				<b>display: solid;</b>: Ini adalah deklarasi yang tidak valid; seharusnya "display: block;" untuk mengubah elemen menjadi elemen kotak blok.
+			</li>
+			<li>
+				<b>border: 1px solid #dddddd;</b>: Menambahkan garis batas sebesar 1 piksel dengan warna abu-abu (#dddddd).
+			</li>
+			<li>
+				<b>width: auto;</b>: Mengizinkan elemen untuk mengatur lebar secara otomatis sesuai dengan kontennya.
+			</li>
+			<li>
+				<b>margin-bottom: -1px;</b>: Mengatur margin bawah sebesar -1 piksel, yang mungkin digunakan untuk menghilangkan jarak antara elemen-elemen yang memiliki kelas "faq-bar."
+			</li>
+		</ul>
+	</li>
+ 	<li>
+		<b>.faq-bar a</b>: Ini adalah selektor CSS yang mengarah pada tautan yang berada dalam elemen dengan kelas "faq-bar." Properti CSS yang diterapkan pada tautan FAQ adalah sebagai berikut:
+		<ul>
+			<li>
+				<b>text-decoration</b>: none;: Membatalkan dekorasi tautan pada tautan FAQ.
+			</li>
+			<li>
+				color: #000000;: Mengatur warna teks tautan FAQ menjadi hitam (#000000).
+			</li>
+			<li>
+				<b>font-weight: bold;</b>: Membuat teks tautan FAQ menjadi tebal (bold).
+			</li>
+			<li>
+				<b>font-size: 16px;</b>: Mengatur ukuran teks tautan FAQ menjadi 16 piksel.
+			</li>
+			<li>
+				<b>transition: color 0.3s;</b>: Menerapkan transisi warna selama 0.3 detik ketika warna teks tautan berubah, yang bisa memberikan efek perubahan warna yang lembut saat tautan diklik.
+			</li>
+		</ul>
+	</li>
+ 	<li>
+		<b>.faqanswer</b>: Ini adalah selektor CSS yang mengarah pada elemen dengan kelas "faqanswer," yang digunakan untuk mengatur tampilan jawaban FAQ. Properti CSS yang diterapkan pada elemen ini adalah sebagai berikut:
+		<ul>
+			<li>
+				<b>display: none;</b>: Awalnya, elemen jawaban akan disembunyikan dan tidak terlihat.
+			</li>
+			<li>
+				<b>width: auto;</b>: Mengizinkan elemen jawaban untuk mengatur lebar secara otomatis sesuai dengan kontennya.
+			</li>
+			<li>
+				<b>background: #e5e5e5;</b>: Mengatur warna latar belakang elemen jawaban menjadi abu-abu muda (#e5e5e5).
+			</li>
+			<li>
+				<b>padding: 20px;</b>: Memberikan padding sebesar 20 piksel pada elemen jawaban.
+			</li>
+			<li>
+				<b>margin-top: 20px;<b>: Menambahkan jarak atas sebesar 20 piksel antara elemen jawaban dan elemen sebelumnya.
+			</li>
+		</ul>
+	</li>
 
-•text-decoration: none;: Membatalkan dekorasi tautan (misalnya, garis bawah) pada elemen dengan kelas "faq-bar."
+	
+</ol>
 
-•color: #333;: Mengatur warna teks menjadi abu-abu tua (#333).
-
-•padding: 20px 0px 20px 0px;: Mengatur jarak antara konten dan batas elemen, dengan padding atas dan bawah sebesar 20 piksel dan padding sisi kiri-kanan nol.
-
-•line-height: 20px;: Mengatur ketinggian garis teks (line height) menjadi 20 piksel.
-
-•display: solid;: Ini adalah deklarasi yang tidak valid; seharusnya "display: block;" untuk mengubah elemen menjadi elemen kotak blok.
-
-•border: 1px solid #dddddd;: Menambahkan garis batas sebesar 1 piksel dengan warna abu-abu (#dddddd).
-
-•width: auto;: Mengizinkan elemen untuk mengatur lebar secara otomatis sesuai dengan kontennya.
-
-•margin-bottom: -1px;: Mengatur margin bawah sebesar -1 piksel, yang mungkin digunakan untuk menghilangkan jarak antara elemen-elemen yang memiliki kelas "faq-bar."
-2.	.faq-bar a: Ini adalah selektor CSS yang mengarah pada tautan yang berada dalam elemen dengan kelas "faq-bar." Properti CSS yang diterapkan pada tautan FAQ adalah sebagai berikut:
-
-•text-decoration: none;: Membatalkan dekorasi tautan pada tautan FAQ.
-
-•color: #000000;: Mengatur warna teks tautan FAQ menjadi hitam (#000000).
-
-•font-weight: bold;: Membuat teks tautan FAQ menjadi tebal (bold).
-
-•font-size: 16px;: Mengatur ukuran teks tautan FAQ menjadi 16 piksel.
-
-•transition: color 0.3s;: Menerapkan transisi warna selama 0.3 detik ketika warna teks tautan berubah, yang bisa memberikan efek perubahan warna yang lembut saat tautan diklik.
-4.	.faqanswer: Ini adalah selektor CSS yang mengarah pada elemen dengan kelas "faqanswer," yang digunakan untuk mengatur tampilan jawaban FAQ.
-Properti CSS yang diterapkan pada elemen ini adalah sebagai berikut:
-
-•display: none;: Awalnya, elemen jawaban akan disembunyikan dan tidak terlihat.
-
-•width: auto;: Mengizinkan elemen jawaban untuk mengatur lebar secara otomatis sesuai dengan kontennya.
-
-•background: #e5e5e5;: Mengatur warna latar belakang elemen jawaban menjadi abu-abu muda (#e5e5e5).
-
-•padding: 20px;: Memberikan padding sebesar 20 piksel pada elemen jawaban.
-
-•margin-top: 20px;: Menambahkan jarak atas sebesar 20 piksel antara elemen jawaban dan elemen sebelumnya.
-
-
-
+</div>
  
+
+
+‏‏  ‏‏  ‏ ‏‏‏‏‏ ‏‏‏‏  ‏  ‏‏     ‏‏‏ ‏ ‏ ‏ ‏‏‏‏‏ ‏‏‏  ‏   ‏‏  ‏‏  ‏ ‏‏‏‏ ‏ ‏‏‏   ‏‏  ‏   ‏ ‏‏‏‏‏ ‏‏‏ ‏   ‏‏ ‏    ‏‏ ‏  ‏  ‏‏ ‏ ‏ ‏ ‏‏‏‏‏ ‏‏‏‏  ‏ ‏‏ ‏‏‏‏ ‏‏‏ ‏ ‏ ‏ ‏‏‏‏‏ ‏‏‏     ‏‏    ‏  ‏‏ ‏ ‏  ‏‏ ‏ ‏  ‏‏  ‏‏ ‏‏  ‏   ‏‏‏‏‏ ‏
 
 
