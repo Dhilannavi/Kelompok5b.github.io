@@ -260,17 +260,7 @@ Footer:
 
 CSS:
 
-.footer {
-    padding: 25px 0;
-    background-color: #FF6B35;
-    color: #EEF4ED;
-    text-align: center;
-}
- 
-.footer p {
-    margin-bottom: 10px;
-}
- 
+![alt text](https://github.com/Dhilannavi/Kelompok5b.github.io/blob/master/asset/img/css1.png)
   
  
 1.	.footer:
